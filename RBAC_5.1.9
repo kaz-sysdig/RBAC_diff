@@ -1,0 +1,4760 @@
+{
+  "product": "SDS",
+  "roles": {
+    "ADDITIONAL": {
+      "ROLE_IMPERSONATOR": [
+        {
+          "name": "ADMIN_SYSTEM_READ",
+          "permission": "system-admin.read",
+          "description": ""
+        },
+        {
+          "name": "FULL_IMPERSONATE",
+          "permission": "impersonate.edit",
+          "description": ""
+        },
+        {
+          "name": "READ_IMPERSONATE",
+          "permission": "impersonate.read",
+          "description": ""
+        }
+      ],
+      "ROLE_IMPERSONATOR_READ": [
+        {
+          "name": "ADMIN_SYSTEM_READ",
+          "permission": "system-admin.read",
+          "description": ""
+        },
+        {
+          "name": "READ_IMPERSONATE",
+          "permission": "impersonate.read",
+          "description": ""
+        }
+      ]
+    },
+    "SERVICE": {
+      "ADMISSION_CONTROLLER_API_APP": [
+        {
+          "name": "READ_CUSTOMER_BY_ACCESSKEY",
+          "permission": "customer-by-accesskey.read",
+          "description": ""
+        },
+        {
+          "name": "SERVICE_READ_LITE_PLAN_SETTINGS",
+          "permission": "service.liteplansettings.read",
+          "description": ""
+        }
+      ],
+      "ALERT_MANAGER_APP": [
+        {
+          "name": "ADMIN_EDIT_ALERTS",
+          "permission": "alerts.admin.edit",
+          "description": ""
+        },
+        {
+          "name": "ADMIN_EDIT_ALERT_NOTIFICATIONS",
+          "permission": "alert-notifications.admin.edit",
+          "description": ""
+        },
+        {
+          "name": "ADMIN_EDIT_CAPTURES",
+          "permission": "captures.admin.edit",
+          "description": ""
+        },
+        {
+          "name": "ADMIN_INSIGHT_TEAM",
+          "permission": "team-admin.insight",
+          "description": ""
+        },
+        {
+          "name": "ADMIN_READ_AGENTS",
+          "permission": "agents.admin.read",
+          "description": ""
+        },
+        {
+          "name": "ADMIN_READ_ALERTS",
+          "permission": "alerts.admin.read",
+          "description": ""
+        },
+        {
+          "name": "ADMIN_READ_ALERT_DOWNTIMES",
+          "permission": "alerts.downtimes.admin.read",
+          "description": ""
+        },
+        {
+          "name": "ADMIN_READ_ALERT_NOTIFICATIONS",
+          "permission": "alert-notifications.admin.read",
+          "description": ""
+        },
+        {
+          "name": "ADMIN_READ_CUSTOMER_SETTINGS",
+          "permission": "customer-settings.admin.read",
+          "description": ""
+        },
+        {
+          "name": "ADMIN_READ_METRICS_DATA",
+          "permission": "metrics-data-admin.read",
+          "description": ""
+        },
+        {
+          "name": "ADMIN_READ_URLS",
+          "permission": "urls.admin.read",
+          "description": ""
+        },
+        {
+          "name": "MANAGE_METRICS_DESCRIPTORS",
+          "permission": "metrics-descriptors.manage",
+          "description": ""
+        },
+        {
+          "name": "READ_API_TOKENS",
+          "permission": "api-tokens.read",
+          "description": ""
+        },
+        {
+          "name": "READ_CUSTOMER_ENTITY",
+          "permission": "customer.read",
+          "description": ""
+        },
+        {
+          "name": "READ_METRICS_DATA",
+          "permission": "metrics-data.read",
+          "description": ""
+        },
+        {
+          "name": "READ_USERS",
+          "permission": "users.read",
+          "description": ""
+        },
+        {
+          "name": "SEND_NOTIFICATION_MESSAGES",
+          "permission": "notification-message.send",
+          "description": ""
+        }
+      ],
+      "ALERT_NOTIFIER_APP": [
+        {
+          "name": "ADMIN_EDIT_ALERT_NOTIFICATIONS",
+          "permission": "alert-notifications.admin.edit",
+          "description": ""
+        },
+        {
+          "name": "ADMIN_EDIT_CAPTURES",
+          "permission": "captures.admin.edit",
+          "description": ""
+        },
+        {
+          "name": "ADMIN_INSIGHT_TEAM",
+          "permission": "team-admin.insight",
+          "description": ""
+        },
+        {
+          "name": "ADMIN_READ_AGENTS",
+          "permission": "agents.admin.read",
+          "description": ""
+        },
+        {
+          "name": "ADMIN_READ_ALERTS",
+          "permission": "alerts.admin.read",
+          "description": ""
+        },
+        {
+          "name": "ADMIN_READ_BLACKLISTED_EMAIL",
+          "permission": "blacklisted.email.admin.read",
+          "description": ""
+        },
+        {
+          "name": "ADMIN_READ_CUSTOMER_SETTINGS",
+          "permission": "customer-settings.admin.read",
+          "description": ""
+        },
+        {
+          "name": "ADMIN_READ_METRICS_DESCRIPTORS",
+          "permission": "metrics-descriptors-admin.read",
+          "description": ""
+        },
+        {
+          "name": "ADMIN_READ_NOTIFICATION_CHANNELS",
+          "permission": "notification-channels.admin.read",
+          "description": ""
+        },
+        {
+          "name": "ADMIN_READ_URLS",
+          "permission": "urls.admin.read",
+          "description": ""
+        },
+        {
+          "name": "MANAGE_METRICS_DESCRIPTORS",
+          "permission": "metrics-descriptors.manage",
+          "description": ""
+        },
+        {
+          "name": "READ_USERS",
+          "permission": "users.read",
+          "description": ""
+        },
+        {
+          "name": "SEND_NOTIFICATION_MESSAGES",
+          "permission": "notification-message.send",
+          "description": ""
+        }
+      ],
+      "AUDIT_APP": [
+        {
+          "name": "SERVICE_READ_LITE_PLAN_SETTINGS",
+          "permission": "service.liteplansettings.read",
+          "description": ""
+        }
+      ],
+      "CLOUDSEC_APP": [
+        {
+          "name": "EDIT_CLOUD_ACCOUNTS",
+          "permission": "cloud.accounts.edit",
+          "description": ""
+        },
+        {
+          "name": "READ_CLOUD_ACCOUNTS",
+          "permission": "cloud.accounts.read",
+          "description": ""
+        },
+        {
+          "name": "READ_CUSTOMER_BY_ACCESSKEY",
+          "permission": "customer-by-accesskey.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SECURE_SETTINGS",
+          "permission": "secure-settings.read",
+          "description": ""
+        },
+        {
+          "name": "SERVICE_READ_LITE_PLAN_SETTINGS",
+          "permission": "service.liteplansettings.read",
+          "description": ""
+        }
+      ],
+      "COMPLIANCE_APP": [
+        {
+          "name": "ADMIN_READ_AGENTS",
+          "permission": "agents.admin.read",
+          "description": ""
+        },
+        {
+          "name": "EDIT_CLOUD_ACCOUNTS",
+          "permission": "cloud.accounts.edit",
+          "description": ""
+        },
+        {
+          "name": "READ_BENCHMARK",
+          "permission": "benchmark.read",
+          "description": ""
+        },
+        {
+          "name": "READ_BENCHMARK_TASKS",
+          "permission": "secure.benchmark.tasks.read",
+          "description": ""
+        },
+        {
+          "name": "READ_CLOUD_ACCOUNTS",
+          "permission": "cloud.accounts.read",
+          "description": ""
+        },
+        {
+          "name": "READ_CUSTOMER_BY_ACCESSKEY",
+          "permission": "customer-by-accesskey.read",
+          "description": ""
+        },
+        {
+          "name": "READ_NOTIFICATION_CHANNELS",
+          "permission": "notification-channels.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SECURE_ALERTS",
+          "permission": "secure.alerts.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SECURE_POLICY",
+          "permission": "secure.policy.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SECURE_SETTINGS",
+          "permission": "secure-settings.read",
+          "description": ""
+        },
+        {
+          "name": "SERVICE_READ_LITE_PLAN_SETTINGS",
+          "permission": "service.liteplansettings.read",
+          "description": ""
+        },
+        {
+          "name": "SERVICE_READ_POLICIES",
+          "permission": "secure.service.policies.read",
+          "description": ""
+        },
+        {
+          "name": "SERVICE_READ_SECURE_ONBOARDING",
+          "permission": "secure.onboarding.service.read",
+          "description": ""
+        }
+      ],
+      "EVENTS_FEED_APP": [
+        {
+          "name": "ADMIN_INSIGHT_TEAM",
+          "permission": "team-admin.insight",
+          "description": ""
+        },
+        {
+          "name": "ADMIN_READ_METRICS_DATA",
+          "permission": "metrics-data-admin.read",
+          "description": ""
+        },
+        {
+          "name": "ADMIN_READ_METRICS_DESCRIPTORS",
+          "permission": "metrics-descriptors-admin.read",
+          "description": ""
+        },
+        {
+          "name": "EDIT_ALERT_NOTIFICATIONS",
+          "permission": "alert-notifications.admin.edit",
+          "description": ""
+        },
+        {
+          "name": "READ_CUSTOMER_BY_ACCESSKEY",
+          "permission": "customer-by-accesskey.read",
+          "description": ""
+        },
+        {
+          "name": "READ_METRICS_DATA",
+          "permission": "metrics-data.read",
+          "description": ""
+        },
+        {
+          "name": "SERVICE_READ_LITE_PLAN_SETTINGS",
+          "permission": "service.liteplansettings.read",
+          "description": ""
+        }
+      ],
+      "MEERKAT_APP": [
+        {
+          "name": "ADMIN_INSIGHT_TEAM",
+          "permission": "team-admin.insight",
+          "description": ""
+        },
+        {
+          "name": "READ_DATA_API_SETTINGS",
+          "permission": "data-api-settings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_DATA_THROTTLING_SETTINGS",
+          "permission": "data-throttling-settings.read",
+          "description": ""
+        }
+      ],
+      "NETWORK_SECURITY_APP": [
+        {
+          "name": "SERVICE_READ_LITE_PLAN_SETTINGS",
+          "permission": "service.liteplansettings.read",
+          "description": ""
+        }
+      ],
+      "POLICIES_APP": [
+        {
+          "name": "SERVICE_EDIT_POLICIES",
+          "permission": "secure.service.policies.edit",
+          "description": ""
+        },
+        {
+          "name": "SERVICE_READ_AGENTS",
+          "permission": "agents.service.read",
+          "description": ""
+        },
+        {
+          "name": "SERVICE_READ_LITE_PLAN_SETTINGS",
+          "permission": "service.liteplansettings.read",
+          "description": ""
+        },
+        {
+          "name": "SERVICE_READ_POLICIES",
+          "permission": "secure.service.policies.read",
+          "description": ""
+        },
+        {
+          "name": "SERVICE_READ_POLICY_EVENTS",
+          "permission": "secure.service.policy-events.read",
+          "description": ""
+        },
+        {
+          "name": "SERVICE_READ_SECURE_FEATURES",
+          "permission": "secure.features.service.read",
+          "description": ""
+        }
+      ],
+      "POLICY_ADVISOR_APP": [
+        {
+          "name": "SERVICE_EDIT_POLICIES",
+          "permission": "secure.service.policies.edit",
+          "description": ""
+        },
+        {
+          "name": "SERVICE_READ_LITE_PLAN_SETTINGS",
+          "permission": "service.liteplansettings.read",
+          "description": ""
+        },
+        {
+          "name": "SERVICE_READ_POLICIES",
+          "permission": "secure.service.policies.read",
+          "description": ""
+        },
+        {
+          "name": "SERVICE_READ_POLICY_EVENTS",
+          "permission": "secure.service.policy-events.read",
+          "description": ""
+        }
+      ],
+      "PROFILING_APP": [
+        {
+          "name": "READ_PROFILING",
+          "permission": "profiling.read",
+          "description": ""
+        },
+        {
+          "name": "SERVICE_READ_LITE_PLAN_SETTINGS",
+          "permission": "service.liteplansettings.read",
+          "description": ""
+        },
+        {
+          "name": "SERVICE_READ_PROFILING",
+          "permission": "secure.service.profiling.read",
+          "description": ""
+        }
+      ],
+      "PROM_REMOTE_WRITE_APP": [
+        {
+          "name": "ADMIN_IBM_READ",
+          "permission": "ibm.admin.read",
+          "description": ""
+        },
+        {
+          "name": "ADMIN_INSIGHT_TEAM",
+          "permission": "team-admin.insight",
+          "description": ""
+        },
+        {
+          "name": "MANAGE_METRICS_DESCRIPTORS",
+          "permission": "metrics-descriptors.manage",
+          "description": ""
+        },
+        {
+          "name": "READ_API_TOKENS",
+          "permission": "api-tokens.read",
+          "description": ""
+        },
+        {
+          "name": "READ_CUSTOMER_ENTITY",
+          "permission": "customer.read",
+          "description": ""
+        },
+        {
+          "name": "READ_MEERKAT_SETTINGS",
+          "permission": "meerkat-settings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_STORAGE_SETTINGS",
+          "permission": "storage-settings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_USERS",
+          "permission": "users.read",
+          "description": ""
+        }
+      ],
+      "RAPID_RESPONSE_APP": [
+        {
+          "name": "CREATE_S3_UPLOAD_PRESIGNED_URL",
+          "permission": "sysdig-storage.s3-upload-url.create",
+          "description": ""
+        },
+        {
+          "name": "READ_CUSTOMER_BY_ACCESSKEY",
+          "permission": "customer-by-accesskey.read",
+          "description": ""
+        },
+        {
+          "name": "SEND_NOTIFICATION_MESSAGES",
+          "permission": "notification-message.send",
+          "description": ""
+        },
+        {
+          "name": "SERVICE_READ_LITE_PLAN_SETTINGS",
+          "permission": "service.liteplansettings.read",
+          "description": ""
+        }
+      ],
+      "SCAN_APP": [
+        {
+          "name": "ADMIN_INSIGHT_TEAM",
+          "permission": "team-admin.insight",
+          "description": ""
+        },
+        {
+          "name": "ADMIN_READ_ACTIVE_SECURE_COMPLIANCE_USERS",
+          "permission": "active-secure-compliance-users-admin.read",
+          "description": ""
+        },
+        {
+          "name": "ADMIN_READ_HISTORY_DATA",
+          "permission": "history-data-admin.read",
+          "description": ""
+        },
+        {
+          "name": "ADMIN_READ_INACTIVE_USERS",
+          "permission": "inactive-users-admin.read",
+          "description": ""
+        },
+        {
+          "name": "ADMIN_READ_METRICS_DATA",
+          "permission": "metrics-data-admin.read",
+          "description": ""
+        },
+        {
+          "name": "ADMIN_READ_METRICS_DESCRIPTORS",
+          "permission": "metrics-descriptors-admin.read",
+          "description": ""
+        },
+        {
+          "name": "CREATE_SCANNING_EVENTS",
+          "permission": "scanning-events.create",
+          "description": ""
+        },
+        {
+          "name": "READ_CUSTOMER_BY_ACCESSKEY",
+          "permission": "customer-by-accesskey.read",
+          "description": ""
+        },
+        {
+          "name": "READ_METRICS_DATA",
+          "permission": "metrics-data.read",
+          "description": ""
+        },
+        {
+          "name": "SEND_NOTIFICATION_MESSAGES",
+          "permission": "notification-message.send",
+          "description": ""
+        },
+        {
+          "name": "SERVICE_READ_LITE_PLAN_SETTINGS",
+          "permission": "service.liteplansettings.read",
+          "description": ""
+        },
+        {
+          "name": "SERVICE_READ_SECURE_ONBOARDING",
+          "permission": "secure.onboarding.service.read",
+          "description": ""
+        }
+      ],
+      "SECURE_OVERVIEW_APP": [
+        {
+          "name": "ADMIN_INSIGHT_TEAM",
+          "permission": "team-admin.insight",
+          "description": ""
+        },
+        {
+          "name": "ADMIN_READ_ACTIVE_SECURE_OVERVIEW_USERS",
+          "permission": "active-secure-overview-users-admin.read",
+          "description": ""
+        },
+        {
+          "name": "ADMIN_READ_HISTORY_DATA",
+          "permission": "history-data-admin.read",
+          "description": ""
+        },
+        {
+          "name": "ADMIN_READ_METRICS_DATA",
+          "permission": "metrics-data-admin.read",
+          "description": ""
+        },
+        {
+          "name": "ADMIN_READ_METRICS_DESCRIPTORS",
+          "permission": "metrics-descriptors-admin.read",
+          "description": ""
+        },
+        {
+          "name": "READ_METRICS_DATA",
+          "permission": "metrics-data.read",
+          "description": ""
+        },
+        {
+          "name": "SERVICE_READ_LITE_PLAN_SETTINGS",
+          "permission": "service.liteplansettings.read",
+          "description": ""
+        }
+      ],
+      "SFDC_APP": [
+        {
+          "name": "READ_OFFLINE_SUBSCRIPTION",
+          "permission": "integrations.subscription.offline.read",
+          "description": ""
+        },
+        {
+          "name": "REFRESH_OFFERS",
+          "permission": "integrations.subscription.offers.refresh",
+          "description": ""
+        },
+        {
+          "name": "SIGNUP_CUSTOMER",
+          "permission": "integrations.customer.signup",
+          "description": ""
+        },
+        {
+          "name": "UPDATE_OFFLINE_SUBSCRIPTION",
+          "permission": "integrations.subscription.offline.update",
+          "description": ""
+        }
+      ],
+      "SOM_APP": [
+        {
+          "name": "ADMIN_IBM_READ",
+          "permission": "ibm.admin.read",
+          "description": ""
+        },
+        {
+          "name": "ADMIN_INSIGHT_TEAM",
+          "permission": "team-admin.insight",
+          "description": ""
+        },
+        {
+          "name": "EDIT_BEACON_METADATA",
+          "permission": "beacon.edit-metadata",
+          "description": ""
+        },
+        {
+          "name": "EDIT_DEFAULT_ALERTS",
+          "permission": "default-alerts.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_DEFAULT_DASHBOARDS",
+          "permission": "default-dashboards.edit",
+          "description": ""
+        },
+        {
+          "name": "READ_BEACON_METADATA",
+          "permission": "beacon.read-metadata",
+          "description": ""
+        },
+        {
+          "name": "READ_DEFAULT_ALERTS",
+          "permission": "default-alerts.read",
+          "description": ""
+        },
+        {
+          "name": "READ_DEFAULT_DASHBOARDS",
+          "permission": "default-dashboards.read",
+          "description": ""
+        }
+      ]
+    },
+    "SYSTEM": {
+      "ROLE_ADMIN": [
+        {
+          "name": "ACCESS_SECURE",
+          "permission": "secure.access",
+          "description": ""
+        },
+        {
+          "name": "ADMIN_CUSTOMER",
+          "permission": "customer.admin",
+          "description": ""
+        },
+        {
+          "name": "ADMIN_INSIGHT_TEAM",
+          "permission": "team-admin.insight",
+          "description": ""
+        },
+        {
+          "name": "ADMIN_ONBOARDING",
+          "permission": "onboarding.admin",
+          "description": ""
+        },
+        {
+          "name": "ADMIN_READ_ACTIVE_SECURE_COMPLIANCE_USERS",
+          "permission": "active-secure-compliance-users-admin.read",
+          "description": ""
+        },
+        {
+          "name": "ADMIN_READ_ACTIVE_SECURE_OVERVIEW_USERS",
+          "permission": "active-secure-overview-users-admin.read",
+          "description": ""
+        },
+        {
+          "name": "ADMIN_READ_INACTIVE_USERS",
+          "permission": "inactive-users-admin.read",
+          "description": ""
+        },
+        {
+          "name": "ADMIN_READ_METRICS_DATA",
+          "permission": "metrics-data-admin.read",
+          "description": ""
+        },
+        {
+          "name": "ADMIN_SYSTEM_EDIT",
+          "permission": "system-admin.edit",
+          "description": ""
+        },
+        {
+          "name": "ADMIN_SYSTEM_READ",
+          "permission": "system-admin.read",
+          "description": ""
+        },
+        {
+          "name": "AGENT_CLI_AGENT_INTERNAL_DIAGNOSTICS",
+          "permission": "agent.cli.agent_internal_diagnostics",
+          "description": ""
+        },
+        {
+          "name": "AGENT_CLI_AGENT_NETWORK_CALLS_TO_REMOTE_PODS",
+          "permission": "agent.cli.agent_network_calls_to_remote_pods",
+          "description": ""
+        },
+        {
+          "name": "AGENT_CLI_AGENT_STATUS",
+          "permission": "agent.cli.agent_status",
+          "description": ""
+        },
+        {
+          "name": "AGENT_CLI_VIEW",
+          "permission": "agent.cli.view",
+          "description": ""
+        },
+        {
+          "name": "AGENT_CLI_VIEW_CONFIGURATION",
+          "permission": "agent.cli.view_configuration",
+          "description": ""
+        },
+        {
+          "name": "AGENT_CLI_VIEW_SENSITIVE_CONFIGURATION",
+          "permission": "agent.cli.view_sensitive_configuration",
+          "description": ""
+        },
+        {
+          "name": "CONFIG_SSO",
+          "permission": "sso.config",
+          "description": ""
+        },
+        {
+          "name": "CONFIG_SYSTEM_SSO",
+          "permission": "sso-system.config",
+          "description": ""
+        },
+        {
+          "name": "CREATE_TEAMS",
+          "permission": "teams.create",
+          "description": ""
+        },
+        {
+          "name": "CREATE_USERS",
+          "permission": "users.create",
+          "description": ""
+        },
+        {
+          "name": "DELETE_TEAMS",
+          "permission": "teams.delete",
+          "description": ""
+        },
+        {
+          "name": "EDIT_ACCESS_KEYS",
+          "permission": "access-keys.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_ACTIVE_SSO",
+          "permission": "sso-active.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_ADMISSION_CONTROLLER",
+          "permission": "secure.admission-controller.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_AGENTSCANNING_CONFIG",
+          "permission": "agentscanning.config.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_API_TOKEN",
+          "permission": "api-token.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_AWS_SETTINGS",
+          "permission": "aws-settings.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_BENCHMARK_RESULTS",
+          "permission": "secure.benchmark.results.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_DATASTREAM",
+          "permission": "datastream.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_DATA_API_SETTINGS",
+          "permission": "data-api-settings.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_DATA_THROTTLING_SETTINGS",
+          "permission": "data-throttling-settings.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_DOWNTIMES",
+          "permission": "downtimes.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_EVENTS_FORWARDER",
+          "permission": "events-forwarder.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_FILE_STORAGE_CONFIG",
+          "permission": "file-storage-config.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_GLOBAL_NOTIFICATION_CHANNELS",
+          "permission": "global.notification-channels.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_GROUPINGS",
+          "permission": "groupings.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_MEMBERSHIPS",
+          "permission": "memberships.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_NETSEC",
+          "permission": "netsec.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_ONBOARDING",
+          "permission": "onboarding.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_POLICY_TUNER",
+          "permission": "policy-tuner.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_PROMCAT_INTEGRATIONS",
+          "permission": "promcat.integrations.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_PROVIDERS",
+          "permission": "providers.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_SCANNING_RETENTION",
+          "permission": "scanning.retention.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_SECURE_IMAGES",
+          "permission": "secure.images.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_SECURE_SETTINGS",
+          "permission": "secure-settings.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_SUBSCRIPTION",
+          "permission": "subscription.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_SYSDIG_STORAGE",
+          "permission": "sysdig-storage.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_SYSTEM_FALCO",
+          "permission": "system-falco.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_TEAMS",
+          "permission": "teams.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_TEAM_AGENT_CLI_SETTINGS",
+          "permission": "team-agent-cli-settings.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_TEAM_CAPTURE_SETTINGS",
+          "permission": "team-capture-settings.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_TEAM_RAPID_RESPONSE_SETTINGS",
+          "permission": "team-rapid-response-settings.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_UI_CUSTOMER_SETTINGS",
+          "permission": "ui-customer-settings.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_UI_INACTIVITY_SETTINGS",
+          "permission": "ui-inactivity-settings.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_UI_SETTINGS",
+          "permission": "ui-settings.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_UI_USER_APP_SETTINGS",
+          "permission": "ui-user-app-settings.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_USERS",
+          "permission": "users.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_USER_LIST",
+          "permission": "user-list.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_USER_PASSWORD",
+          "permission": "user-password.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_USER_PROFILE",
+          "permission": "user-profile.edit",
+          "description": ""
+        },
+        {
+          "name": "EXEC_DEV_TASKS",
+          "permission": "dev-task.exec",
+          "description": ""
+        },
+        {
+          "name": "EXEC_ES_QUERY",
+          "permission": "es-query.exec",
+          "description": ""
+        },
+        {
+          "name": "EXEC_RAPID_RESPONSE",
+          "permission": "secure.rapid-response.exec",
+          "description": ""
+        },
+        {
+          "name": "EXPORT_PROTOBUF",
+          "permission": "protobuf.export",
+          "description": ""
+        },
+        {
+          "name": "FULL_IMPERSONATE",
+          "permission": "impersonate.edit",
+          "description": ""
+        },
+        {
+          "name": "INGEST_PRWS",
+          "permission": "ingest.prws",
+          "description": ""
+        },
+        {
+          "name": "INGEST_PRWS_RESTRICTED",
+          "permission": "ingest.prws.controlled",
+          "description": ""
+        },
+        {
+          "name": "KILL_RAPID_RESPONSE",
+          "permission": "secure.rapid-response.kill",
+          "description": ""
+        },
+        {
+          "name": "MANAGE_METRICS_DESCRIPTORS",
+          "permission": "metrics-descriptors.manage",
+          "description": ""
+        },
+        {
+          "name": "MANAGE_QUARTZ_JOBS",
+          "permission": "quartz-jobs.manage",
+          "description": ""
+        },
+        {
+          "name": "READ_ACCESS_KEYS",
+          "permission": "access-keys.read",
+          "description": ""
+        },
+        {
+          "name": "READ_AGENTSCANNING_CONFIG",
+          "permission": "agentscanning.config.read",
+          "description": ""
+        },
+        {
+          "name": "READ_AGENT_INSTALLATION",
+          "permission": "agent-installation.read",
+          "description": ""
+        },
+        {
+          "name": "READ_AGREEMENT",
+          "permission": "agreement.read",
+          "description": ""
+        },
+        {
+          "name": "READ_API_TOKEN",
+          "permission": "api-token.read",
+          "description": ""
+        },
+        {
+          "name": "READ_AWS_SETTINGS",
+          "permission": "aws-settings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_CLOUD_ACCOUNTS",
+          "permission": "cloud.accounts.read",
+          "description": ""
+        },
+        {
+          "name": "READ_CUSTOMER_BY_ACCESSKEY",
+          "permission": "customer-by-accesskey.read",
+          "description": ""
+        },
+        {
+          "name": "READ_CUSTOMER_PLAN",
+          "permission": "customer-plan.read",
+          "description": ""
+        },
+        {
+          "name": "READ_CUSTOM_EVENTS",
+          "permission": "custom-events.read",
+          "description": ""
+        },
+        {
+          "name": "READ_DASHBOARD_METRICS_DATA",
+          "permission": "dashboard-metrics-data.read",
+          "description": ""
+        },
+        {
+          "name": "READ_DATASTREAM",
+          "permission": "datastream.read",
+          "description": ""
+        },
+        {
+          "name": "READ_DATA_API_SETTINGS",
+          "permission": "data-api-settings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_DATA_THROTTLING_SETTINGS",
+          "permission": "data-throttling-settings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_DOWNTIMES",
+          "permission": "downtimes.read",
+          "description": ""
+        },
+        {
+          "name": "READ_EVENTS_FORWARDER",
+          "permission": "events-forwarder.read",
+          "description": ""
+        },
+        {
+          "name": "READ_EXPLORE",
+          "permission": "explore.read",
+          "description": ""
+        },
+        {
+          "name": "READ_EXTERNAL_LINKS",
+          "permission": "external-links.read",
+          "description": ""
+        },
+        {
+          "name": "READ_FILE_STORAGE_CONFIG",
+          "permission": "file-storage-config.read",
+          "description": ""
+        },
+        {
+          "name": "READ_GROUPINGS",
+          "permission": "groupings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_HELM_RENDERER",
+          "permission": "helmsrenderer.read",
+          "description": ""
+        },
+        {
+          "name": "READ_HISTORY_DATA",
+          "permission": "history-data.read",
+          "description": ""
+        },
+        {
+          "name": "READ_IMPERSONATE",
+          "permission": "impersonate.read",
+          "description": ""
+        },
+        {
+          "name": "READ_INFRASTRUCTURE",
+          "permission": "infrastructure.read",
+          "description": ""
+        },
+        {
+          "name": "READ_INTEGRATIONS",
+          "permission": "integrations.read",
+          "description": ""
+        },
+        {
+          "name": "READ_MDS_METADATA",
+          "permission": "mds.read-metadata",
+          "description": ""
+        },
+        {
+          "name": "READ_MEMBERSHIPS",
+          "permission": "memberships.read",
+          "description": ""
+        },
+        {
+          "name": "READ_METADATA_DEFAULTS",
+          "permission": "metadata-defaults.read",
+          "description": ""
+        },
+        {
+          "name": "READ_METRICS_DATA",
+          "permission": "metrics-data.read",
+          "description": ""
+        },
+        {
+          "name": "READ_METRICS_DESCRIPTORS",
+          "permission": "metrics-descriptors.read",
+          "description": ""
+        },
+        {
+          "name": "READ_ONBOARDING",
+          "permission": "onboarding.read",
+          "description": ""
+        },
+        {
+          "name": "READ_OVERVIEWS",
+          "permission": "overviews.read",
+          "description": ""
+        },
+        {
+          "name": "READ_PAYMENT_DETAILS",
+          "permission": "payment-details.read",
+          "description": ""
+        },
+        {
+          "name": "READ_PROMCAT_INTEGRATIONS",
+          "permission": "promcat.integrations.read",
+          "description": ""
+        },
+        {
+          "name": "READ_PROMQL_METADATA",
+          "permission": "promql-metadata.read",
+          "description": ""
+        },
+        {
+          "name": "READ_PROVIDERS",
+          "permission": "providers.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SCANNING",
+          "permission": "scanning.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SCANNING_RETENTION",
+          "permission": "scanning.retention.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SECURE_ONBOARDING",
+          "permission": "secure.onboarding.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SECURE_SETTINGS",
+          "permission": "secure-settings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SUBSCRIPTION",
+          "permission": "subscription.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SYSDIG_STORAGE",
+          "permission": "sysdig-storage.read",
+          "description": ""
+        },
+        {
+          "name": "READ_TEAMS",
+          "permission": "teams.read",
+          "description": ""
+        },
+        {
+          "name": "READ_TEAM_AGENT_CLI_SETTINGS",
+          "permission": "team-agent-cli-settings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_TEAM_CAPTURE_SETTINGS",
+          "permission": "team-capture-settings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_TEAM_RAPID_RESPONSE_SETTINGS",
+          "permission": "team-rapid-response-settings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_TEAM_SEARCH",
+          "permission": "team-search.read",
+          "description": ""
+        },
+        {
+          "name": "READ_UI_CUSTOMER_SETTINGS",
+          "permission": "ui-customer-settings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_UI_INACTIVITY_SETTINGS",
+          "permission": "ui-inactivity-settings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_UI_SETTINGS",
+          "permission": "ui-settings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_UI_USER_APP_SETTINGS",
+          "permission": "ui-user-app-settings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_USERS",
+          "permission": "users.read",
+          "description": ""
+        },
+        {
+          "name": "READ_USER_LIST",
+          "permission": "user-list.read",
+          "description": ""
+        },
+        {
+          "name": "READ_USER_PROFILE",
+          "permission": "user-profile.read",
+          "description": ""
+        },
+        {
+          "name": "SESSIONS_RAPID_RESPONSE",
+          "permission": "secure.rapid-response.sessions.read.all",
+          "description": ""
+        },
+        {
+          "name": "SIGN_AGREEMENT",
+          "permission": "agreement.sign",
+          "description": ""
+        },
+        {
+          "name": "SUPPORT_SYSTEM_EDIT",
+          "permission": "system-support.edit",
+          "description": ""
+        },
+        {
+          "name": "TOGGLE_AGENT_AVAILABILITY",
+          "permission": "agent-availability.toggle",
+          "description": ""
+        },
+        {
+          "name": "TRACK_EVENT",
+          "permission": "track.event",
+          "description": ""
+        }
+      ],
+      "ROLE_CUSTOMER": [
+        {
+          "name": "ADMIN_CUSTOMER",
+          "permission": "customer.admin",
+          "description": ""
+        },
+        {
+          "name": "AGENT_CLI_AGENT_NETWORK_CALLS_TO_REMOTE_PODS",
+          "permission": "agent.cli.agent_network_calls_to_remote_pods",
+          "description": ""
+        },
+        {
+          "name": "AGENT_CLI_AGENT_STATUS",
+          "permission": "agent.cli.agent_status",
+          "description": ""
+        },
+        {
+          "name": "AGENT_CLI_VIEW",
+          "permission": "agent.cli.view",
+          "description": ""
+        },
+        {
+          "name": "AGENT_CLI_VIEW_CONFIGURATION",
+          "permission": "agent.cli.view_configuration",
+          "description": ""
+        },
+        {
+          "name": "CONFIG_SSO",
+          "permission": "sso.config",
+          "description": ""
+        },
+        {
+          "name": "CREATE_TEAMS",
+          "permission": "teams.create",
+          "description": ""
+        },
+        {
+          "name": "CREATE_USERS",
+          "permission": "users.create",
+          "description": ""
+        },
+        {
+          "name": "DELETE_TEAMS",
+          "permission": "teams.delete",
+          "description": ""
+        },
+        {
+          "name": "EDIT_ACCESS_KEYS",
+          "permission": "access-keys.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_ACTIVE_SSO",
+          "permission": "sso-active.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_ADMISSION_CONTROLLER",
+          "permission": "secure.admission-controller.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_AGENTSCANNING_CONFIG",
+          "permission": "agentscanning.config.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_API_TOKEN",
+          "permission": "api-token.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_AWS_SETTINGS",
+          "permission": "aws-settings.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_BENCHMARK_RESULTS",
+          "permission": "secure.benchmark.results.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_EVENTS_FORWARDER",
+          "permission": "events-forwarder.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_FILE_STORAGE_CONFIG",
+          "permission": "file-storage-config.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_GLOBAL_NOTIFICATION_CHANNELS",
+          "permission": "global.notification-channels.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_GROUPINGS",
+          "permission": "groupings.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_MEMBERSHIPS",
+          "permission": "memberships.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_NETSEC",
+          "permission": "netsec.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_POLICY_TUNER",
+          "permission": "policy-tuner.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_PROMCAT_INTEGRATIONS",
+          "permission": "promcat.integrations.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_PROVIDERS",
+          "permission": "providers.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_SCANNING_RETENTION",
+          "permission": "scanning.retention.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_SECURE_IMAGES",
+          "permission": "secure.images.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_SECURE_SETTINGS",
+          "permission": "secure-settings.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_SUBSCRIPTION",
+          "permission": "subscription.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_SYSDIG_STORAGE",
+          "permission": "sysdig-storage.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_TEAMS",
+          "permission": "teams.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_TEAM_AGENT_CLI_SETTINGS",
+          "permission": "team-agent-cli-settings.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_TEAM_CAPTURE_SETTINGS",
+          "permission": "team-capture-settings.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_TEAM_RAPID_RESPONSE_SETTINGS",
+          "permission": "team-rapid-response-settings.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_UI_CUSTOMER_SETTINGS",
+          "permission": "ui-customer-settings.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_UI_INACTIVITY_SETTINGS",
+          "permission": "ui-inactivity-settings.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_UI_SETTINGS",
+          "permission": "ui-settings.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_UI_USER_APP_SETTINGS",
+          "permission": "ui-user-app-settings.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_USERS",
+          "permission": "users.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_USER_LIST",
+          "permission": "user-list.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_USER_PASSWORD",
+          "permission": "user-password.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_USER_PROFILE",
+          "permission": "user-profile.edit",
+          "description": ""
+        },
+        {
+          "name": "EXEC_RAPID_RESPONSE",
+          "permission": "secure.rapid-response.exec",
+          "description": ""
+        },
+        {
+          "name": "KILL_RAPID_RESPONSE",
+          "permission": "secure.rapid-response.kill",
+          "description": ""
+        },
+        {
+          "name": "READ_ACCESS_KEYS",
+          "permission": "access-keys.read",
+          "description": ""
+        },
+        {
+          "name": "READ_AGENTSCANNING_CONFIG",
+          "permission": "agentscanning.config.read",
+          "description": ""
+        },
+        {
+          "name": "READ_AGENT_INSTALLATION",
+          "permission": "agent-installation.read",
+          "description": ""
+        },
+        {
+          "name": "READ_AGREEMENT",
+          "permission": "agreement.read",
+          "description": ""
+        },
+        {
+          "name": "READ_API_TOKEN",
+          "permission": "api-token.read",
+          "description": ""
+        },
+        {
+          "name": "READ_AWS_SETTINGS",
+          "permission": "aws-settings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_CLOUD_ACCOUNTS",
+          "permission": "cloud.accounts.read",
+          "description": ""
+        },
+        {
+          "name": "READ_CUSTOMER_PLAN",
+          "permission": "customer-plan.read",
+          "description": ""
+        },
+        {
+          "name": "READ_CUSTOM_EVENTS",
+          "permission": "custom-events.read",
+          "description": ""
+        },
+        {
+          "name": "READ_EVENTS_FORWARDER",
+          "permission": "events-forwarder.read",
+          "description": ""
+        },
+        {
+          "name": "READ_EXPLORE",
+          "permission": "explore.read",
+          "description": ""
+        },
+        {
+          "name": "READ_EXTERNAL_LINKS",
+          "permission": "external-links.read",
+          "description": ""
+        },
+        {
+          "name": "READ_FILE_STORAGE_CONFIG",
+          "permission": "file-storage-config.read",
+          "description": ""
+        },
+        {
+          "name": "READ_GROUPINGS",
+          "permission": "groupings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_HELM_RENDERER",
+          "permission": "helmsrenderer.read",
+          "description": ""
+        },
+        {
+          "name": "READ_HISTORY_DATA",
+          "permission": "history-data.read",
+          "description": ""
+        },
+        {
+          "name": "READ_INFRASTRUCTURE",
+          "permission": "infrastructure.read",
+          "description": ""
+        },
+        {
+          "name": "READ_MEMBERSHIPS",
+          "permission": "memberships.read",
+          "description": ""
+        },
+        {
+          "name": "READ_METRICS_DATA",
+          "permission": "metrics-data.read",
+          "description": ""
+        },
+        {
+          "name": "READ_METRICS_DESCRIPTORS",
+          "permission": "metrics-descriptors.read",
+          "description": ""
+        },
+        {
+          "name": "READ_PAYMENT_DETAILS",
+          "permission": "payment-details.read",
+          "description": ""
+        },
+        {
+          "name": "READ_PROMCAT_INTEGRATIONS",
+          "permission": "promcat.integrations.read",
+          "description": ""
+        },
+        {
+          "name": "READ_PROVIDERS",
+          "permission": "providers.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SCANNING",
+          "permission": "scanning.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SCANNING_RETENTION",
+          "permission": "scanning.retention.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SECURE_ONBOARDING",
+          "permission": "secure.onboarding.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SECURE_SETTINGS",
+          "permission": "secure-settings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SUBSCRIPTION",
+          "permission": "subscription.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SYSDIG_STORAGE",
+          "permission": "sysdig-storage.read",
+          "description": ""
+        },
+        {
+          "name": "READ_TEAMS",
+          "permission": "teams.read",
+          "description": ""
+        },
+        {
+          "name": "READ_TEAM_AGENT_CLI_SETTINGS",
+          "permission": "team-agent-cli-settings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_TEAM_CAPTURE_SETTINGS",
+          "permission": "team-capture-settings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_TEAM_RAPID_RESPONSE_SETTINGS",
+          "permission": "team-rapid-response-settings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_TEAM_SEARCH",
+          "permission": "team-search.read",
+          "description": ""
+        },
+        {
+          "name": "READ_UI_CUSTOMER_SETTINGS",
+          "permission": "ui-customer-settings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_UI_INACTIVITY_SETTINGS",
+          "permission": "ui-inactivity-settings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_UI_SETTINGS",
+          "permission": "ui-settings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_UI_USER_APP_SETTINGS",
+          "permission": "ui-user-app-settings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_USERS",
+          "permission": "users.read",
+          "description": ""
+        },
+        {
+          "name": "READ_USER_LIST",
+          "permission": "user-list.read",
+          "description": ""
+        },
+        {
+          "name": "READ_USER_PROFILE",
+          "permission": "user-profile.read",
+          "description": ""
+        },
+        {
+          "name": "SESSIONS_RAPID_RESPONSE",
+          "permission": "secure.rapid-response.sessions.read.all",
+          "description": ""
+        },
+        {
+          "name": "SIGN_AGREEMENT",
+          "permission": "agreement.sign",
+          "description": ""
+        }
+      ],
+      "ROLE_IBM_ADMIN": [
+        {
+          "name": "ADMIN_IBM",
+          "permission": "ibm.admin",
+          "description": ""
+        },
+        {
+          "name": "EDIT_USER_PASSWORD",
+          "permission": "user-password.edit",
+          "description": ""
+        }
+      ],
+      "ROLE_MANAGER": [
+        {
+          "name": "CREATE_USERS",
+          "permission": "users.create",
+          "description": ""
+        },
+        {
+          "name": "EDIT_MEMBERSHIPS",
+          "permission": "memberships.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_TEAM_AGENT_CLI_SETTINGS",
+          "permission": "team-agent-cli-settings.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_TEAM_CAPTURE_SETTINGS",
+          "permission": "team-capture-settings.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_UI_SETTINGS",
+          "permission": "ui-settings.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_UI_USER_APP_SETTINGS",
+          "permission": "ui-user-app-settings.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_USER_PASSWORD",
+          "permission": "user-password.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_USER_PROFILE",
+          "permission": "user-profile.edit",
+          "description": ""
+        },
+        {
+          "name": "READ_MEMBERSHIPS",
+          "permission": "memberships.read",
+          "description": ""
+        },
+        {
+          "name": "READ_TEAMS",
+          "permission": "teams.read",
+          "description": ""
+        },
+        {
+          "name": "READ_TEAM_AGENT_CLI_SETTINGS",
+          "permission": "team-agent-cli-settings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_TEAM_CAPTURE_SETTINGS",
+          "permission": "team-capture-settings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_TEAM_SEARCH",
+          "permission": "team-search.read",
+          "description": ""
+        },
+        {
+          "name": "READ_UI_CUSTOMER_SETTINGS",
+          "permission": "ui-customer-settings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_UI_SETTINGS",
+          "permission": "ui-settings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_UI_USER_APP_SETTINGS",
+          "permission": "ui-user-app-settings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_USERS",
+          "permission": "users.read",
+          "description": ""
+        },
+        {
+          "name": "READ_USER_LIST",
+          "permission": "user-list.read",
+          "description": ""
+        },
+        {
+          "name": "READ_USER_PROFILE",
+          "permission": "user-profile.read",
+          "description": ""
+        }
+      ],
+      "ROLE_RESTRICTED_INGEST": [],
+      "ROLE_SUPPORT_ADMIN": [
+        {
+          "name": "ACCESS_SECURE",
+          "permission": "secure.access",
+          "description": ""
+        },
+        {
+          "name": "ADMIN_CUSTOMER",
+          "permission": "customer.admin",
+          "description": ""
+        },
+        {
+          "name": "ADMIN_INSIGHT_TEAM",
+          "permission": "team-admin.insight",
+          "description": ""
+        },
+        {
+          "name": "ADMIN_ONBOARDING",
+          "permission": "onboarding.admin",
+          "description": ""
+        },
+        {
+          "name": "ADMIN_READ_ACTIVE_SECURE_COMPLIANCE_USERS",
+          "permission": "active-secure-compliance-users-admin.read",
+          "description": ""
+        },
+        {
+          "name": "ADMIN_READ_ACTIVE_SECURE_OVERVIEW_USERS",
+          "permission": "active-secure-overview-users-admin.read",
+          "description": ""
+        },
+        {
+          "name": "ADMIN_READ_INACTIVE_USERS",
+          "permission": "inactive-users-admin.read",
+          "description": ""
+        },
+        {
+          "name": "ADMIN_READ_METRICS_DATA",
+          "permission": "metrics-data-admin.read",
+          "description": ""
+        },
+        {
+          "name": "ADMIN_SYSTEM_READ",
+          "permission": "system-admin.read",
+          "description": ""
+        },
+        {
+          "name": "AGENT_CLI_AGENT_INTERNAL_DIAGNOSTICS",
+          "permission": "agent.cli.agent_internal_diagnostics",
+          "description": ""
+        },
+        {
+          "name": "AGENT_CLI_AGENT_NETWORK_CALLS_TO_REMOTE_PODS",
+          "permission": "agent.cli.agent_network_calls_to_remote_pods",
+          "description": ""
+        },
+        {
+          "name": "AGENT_CLI_AGENT_STATUS",
+          "permission": "agent.cli.agent_status",
+          "description": ""
+        },
+        {
+          "name": "AGENT_CLI_VIEW",
+          "permission": "agent.cli.view",
+          "description": ""
+        },
+        {
+          "name": "AGENT_CLI_VIEW_CONFIGURATION",
+          "permission": "agent.cli.view_configuration",
+          "description": ""
+        },
+        {
+          "name": "AGENT_CLI_VIEW_SENSITIVE_CONFIGURATION",
+          "permission": "agent.cli.view_sensitive_configuration",
+          "description": ""
+        },
+        {
+          "name": "CONFIG_SSO",
+          "permission": "sso.config",
+          "description": ""
+        },
+        {
+          "name": "CREATE_TEAMS",
+          "permission": "teams.create",
+          "description": ""
+        },
+        {
+          "name": "CREATE_USERS",
+          "permission": "users.create",
+          "description": ""
+        },
+        {
+          "name": "DELETE_TEAMS",
+          "permission": "teams.delete",
+          "description": ""
+        },
+        {
+          "name": "EDIT_ACCESS_KEYS",
+          "permission": "access-keys.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_ACTIVE_SSO",
+          "permission": "sso-active.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_ADMISSION_CONTROLLER",
+          "permission": "secure.admission-controller.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_AGENTSCANNING_CONFIG",
+          "permission": "agentscanning.config.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_API_TOKEN",
+          "permission": "api-token.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_AWS_SETTINGS",
+          "permission": "aws-settings.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_BENCHMARK_RESULTS",
+          "permission": "secure.benchmark.results.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_DATASTREAM",
+          "permission": "datastream.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_DOWNTIMES",
+          "permission": "downtimes.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_EVENTS_FORWARDER",
+          "permission": "events-forwarder.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_FILE_STORAGE_CONFIG",
+          "permission": "file-storage-config.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_GLOBAL_NOTIFICATION_CHANNELS",
+          "permission": "global.notification-channels.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_GROUPINGS",
+          "permission": "groupings.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_MEMBERSHIPS",
+          "permission": "memberships.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_NETSEC",
+          "permission": "netsec.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_ONBOARDING",
+          "permission": "onboarding.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_POLICY_TUNER",
+          "permission": "policy-tuner.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_PROMCAT_INTEGRATIONS",
+          "permission": "promcat.integrations.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_PROVIDERS",
+          "permission": "providers.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_SCANNING_RETENTION",
+          "permission": "scanning.retention.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_SECURE_IMAGES",
+          "permission": "secure.images.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_SECURE_SETTINGS",
+          "permission": "secure-settings.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_SUBSCRIPTION",
+          "permission": "subscription.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_SYSDIG_STORAGE",
+          "permission": "sysdig-storage.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_TEAMS",
+          "permission": "teams.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_TEAM_AGENT_CLI_SETTINGS",
+          "permission": "team-agent-cli-settings.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_TEAM_CAPTURE_SETTINGS",
+          "permission": "team-capture-settings.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_TEAM_RAPID_RESPONSE_SETTINGS",
+          "permission": "team-rapid-response-settings.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_UI_CUSTOMER_SETTINGS",
+          "permission": "ui-customer-settings.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_UI_INACTIVITY_SETTINGS",
+          "permission": "ui-inactivity-settings.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_UI_SETTINGS",
+          "permission": "ui-settings.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_UI_USER_APP_SETTINGS",
+          "permission": "ui-user-app-settings.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_USERS",
+          "permission": "users.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_USER_LIST",
+          "permission": "user-list.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_USER_PASSWORD",
+          "permission": "user-password.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_USER_PROFILE",
+          "permission": "user-profile.edit",
+          "description": ""
+        },
+        {
+          "name": "EXEC_DEV_TASKS",
+          "permission": "dev-task.exec",
+          "description": ""
+        },
+        {
+          "name": "EXEC_ES_QUERY",
+          "permission": "es-query.exec",
+          "description": ""
+        },
+        {
+          "name": "EXEC_RAPID_RESPONSE",
+          "permission": "secure.rapid-response.exec",
+          "description": ""
+        },
+        {
+          "name": "EXPORT_PROTOBUF",
+          "permission": "protobuf.export",
+          "description": ""
+        },
+        {
+          "name": "FULL_IMPERSONATE",
+          "permission": "impersonate.edit",
+          "description": ""
+        },
+        {
+          "name": "INGEST_PRWS",
+          "permission": "ingest.prws",
+          "description": ""
+        },
+        {
+          "name": "INGEST_PRWS_RESTRICTED",
+          "permission": "ingest.prws.controlled",
+          "description": ""
+        },
+        {
+          "name": "KILL_RAPID_RESPONSE",
+          "permission": "secure.rapid-response.kill",
+          "description": ""
+        },
+        {
+          "name": "MANAGE_METRICS_DESCRIPTORS",
+          "permission": "metrics-descriptors.manage",
+          "description": ""
+        },
+        {
+          "name": "MANAGE_QUARTZ_JOBS",
+          "permission": "quartz-jobs.manage",
+          "description": ""
+        },
+        {
+          "name": "READ_ACCESS_KEYS",
+          "permission": "access-keys.read",
+          "description": ""
+        },
+        {
+          "name": "READ_AGENTSCANNING_CONFIG",
+          "permission": "agentscanning.config.read",
+          "description": ""
+        },
+        {
+          "name": "READ_AGENT_INSTALLATION",
+          "permission": "agent-installation.read",
+          "description": ""
+        },
+        {
+          "name": "READ_AGREEMENT",
+          "permission": "agreement.read",
+          "description": ""
+        },
+        {
+          "name": "READ_API_TOKEN",
+          "permission": "api-token.read",
+          "description": ""
+        },
+        {
+          "name": "READ_AWS_SETTINGS",
+          "permission": "aws-settings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_CLOUD_ACCOUNTS",
+          "permission": "cloud.accounts.read",
+          "description": ""
+        },
+        {
+          "name": "READ_CUSTOMER_BY_ACCESSKEY",
+          "permission": "customer-by-accesskey.read",
+          "description": ""
+        },
+        {
+          "name": "READ_CUSTOMER_PLAN",
+          "permission": "customer-plan.read",
+          "description": ""
+        },
+        {
+          "name": "READ_CUSTOM_EVENTS",
+          "permission": "custom-events.read",
+          "description": ""
+        },
+        {
+          "name": "READ_DASHBOARD_METRICS_DATA",
+          "permission": "dashboard-metrics-data.read",
+          "description": ""
+        },
+        {
+          "name": "READ_DATASTREAM",
+          "permission": "datastream.read",
+          "description": ""
+        },
+        {
+          "name": "READ_DATA_API_SETTINGS",
+          "permission": "data-api-settings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_DATA_THROTTLING_SETTINGS",
+          "permission": "data-throttling-settings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_DOWNTIMES",
+          "permission": "downtimes.read",
+          "description": ""
+        },
+        {
+          "name": "READ_EVENTS_FORWARDER",
+          "permission": "events-forwarder.read",
+          "description": ""
+        },
+        {
+          "name": "READ_EXPLORE",
+          "permission": "explore.read",
+          "description": ""
+        },
+        {
+          "name": "READ_EXTERNAL_LINKS",
+          "permission": "external-links.read",
+          "description": ""
+        },
+        {
+          "name": "READ_FILE_STORAGE_CONFIG",
+          "permission": "file-storage-config.read",
+          "description": ""
+        },
+        {
+          "name": "READ_GROUPINGS",
+          "permission": "groupings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_HELM_RENDERER",
+          "permission": "helmsrenderer.read",
+          "description": ""
+        },
+        {
+          "name": "READ_HISTORY_DATA",
+          "permission": "history-data.read",
+          "description": ""
+        },
+        {
+          "name": "READ_IMPERSONATE",
+          "permission": "impersonate.read",
+          "description": ""
+        },
+        {
+          "name": "READ_INFRASTRUCTURE",
+          "permission": "infrastructure.read",
+          "description": ""
+        },
+        {
+          "name": "READ_INTEGRATIONS",
+          "permission": "integrations.read",
+          "description": ""
+        },
+        {
+          "name": "READ_MDS_METADATA",
+          "permission": "mds.read-metadata",
+          "description": ""
+        },
+        {
+          "name": "READ_MEMBERSHIPS",
+          "permission": "memberships.read",
+          "description": ""
+        },
+        {
+          "name": "READ_METADATA_DEFAULTS",
+          "permission": "metadata-defaults.read",
+          "description": ""
+        },
+        {
+          "name": "READ_METRICS_DATA",
+          "permission": "metrics-data.read",
+          "description": ""
+        },
+        {
+          "name": "READ_METRICS_DESCRIPTORS",
+          "permission": "metrics-descriptors.read",
+          "description": ""
+        },
+        {
+          "name": "READ_ONBOARDING",
+          "permission": "onboarding.read",
+          "description": ""
+        },
+        {
+          "name": "READ_OVERVIEWS",
+          "permission": "overviews.read",
+          "description": ""
+        },
+        {
+          "name": "READ_PAYMENT_DETAILS",
+          "permission": "payment-details.read",
+          "description": ""
+        },
+        {
+          "name": "READ_PROMCAT_INTEGRATIONS",
+          "permission": "promcat.integrations.read",
+          "description": ""
+        },
+        {
+          "name": "READ_PROMQL_METADATA",
+          "permission": "promql-metadata.read",
+          "description": ""
+        },
+        {
+          "name": "READ_PROVIDERS",
+          "permission": "providers.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SCANNING",
+          "permission": "scanning.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SCANNING_RETENTION",
+          "permission": "scanning.retention.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SECURE_ONBOARDING",
+          "permission": "secure.onboarding.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SECURE_SETTINGS",
+          "permission": "secure-settings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SUBSCRIPTION",
+          "permission": "subscription.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SYSDIG_STORAGE",
+          "permission": "sysdig-storage.read",
+          "description": ""
+        },
+        {
+          "name": "READ_TEAMS",
+          "permission": "teams.read",
+          "description": ""
+        },
+        {
+          "name": "READ_TEAM_AGENT_CLI_SETTINGS",
+          "permission": "team-agent-cli-settings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_TEAM_CAPTURE_SETTINGS",
+          "permission": "team-capture-settings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_TEAM_RAPID_RESPONSE_SETTINGS",
+          "permission": "team-rapid-response-settings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_TEAM_SEARCH",
+          "permission": "team-search.read",
+          "description": ""
+        },
+        {
+          "name": "READ_UI_CUSTOMER_SETTINGS",
+          "permission": "ui-customer-settings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_UI_INACTIVITY_SETTINGS",
+          "permission": "ui-inactivity-settings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_UI_SETTINGS",
+          "permission": "ui-settings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_UI_USER_APP_SETTINGS",
+          "permission": "ui-user-app-settings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_USERS",
+          "permission": "users.read",
+          "description": ""
+        },
+        {
+          "name": "READ_USER_LIST",
+          "permission": "user-list.read",
+          "description": ""
+        },
+        {
+          "name": "READ_USER_PROFILE",
+          "permission": "user-profile.read",
+          "description": ""
+        },
+        {
+          "name": "SESSIONS_RAPID_RESPONSE",
+          "permission": "secure.rapid-response.sessions.read.all",
+          "description": ""
+        },
+        {
+          "name": "SIGN_AGREEMENT",
+          "permission": "agreement.sign",
+          "description": ""
+        },
+        {
+          "name": "SUPPORT_SYSTEM_EDIT",
+          "permission": "system-support.edit",
+          "description": ""
+        },
+        {
+          "name": "TRACK_EVENT",
+          "permission": "track.event",
+          "description": ""
+        }
+      ],
+      "ROLE_SUPPORT_READ": [
+        {
+          "name": "ACCESS_SECURE",
+          "permission": "secure.access",
+          "description": ""
+        },
+        {
+          "name": "ADMIN_CUSTOMER",
+          "permission": "customer.admin",
+          "description": ""
+        },
+        {
+          "name": "ADMIN_INSIGHT_TEAM",
+          "permission": "team-admin.insight",
+          "description": ""
+        },
+        {
+          "name": "ADMIN_READ_ACTIVE_SECURE_COMPLIANCE_USERS",
+          "permission": "active-secure-compliance-users-admin.read",
+          "description": ""
+        },
+        {
+          "name": "ADMIN_READ_ACTIVE_SECURE_OVERVIEW_USERS",
+          "permission": "active-secure-overview-users-admin.read",
+          "description": ""
+        },
+        {
+          "name": "ADMIN_READ_INACTIVE_USERS",
+          "permission": "inactive-users-admin.read",
+          "description": ""
+        },
+        {
+          "name": "ADMIN_READ_METRICS_DATA",
+          "permission": "metrics-data-admin.read",
+          "description": ""
+        },
+        {
+          "name": "ADMIN_SYSTEM_READ",
+          "permission": "system-admin.read",
+          "description": ""
+        },
+        {
+          "name": "AGENT_CLI_AGENT_NETWORK_CALLS_TO_REMOTE_PODS",
+          "permission": "agent.cli.agent_network_calls_to_remote_pods",
+          "description": ""
+        },
+        {
+          "name": "AGENT_CLI_AGENT_STATUS",
+          "permission": "agent.cli.agent_status",
+          "description": ""
+        },
+        {
+          "name": "AGENT_CLI_VIEW",
+          "permission": "agent.cli.view",
+          "description": ""
+        },
+        {
+          "name": "AGENT_CLI_VIEW_CONFIGURATION",
+          "permission": "agent.cli.view_configuration",
+          "description": ""
+        },
+        {
+          "name": "CONFIG_SSO",
+          "permission": "sso.config",
+          "description": ""
+        },
+        {
+          "name": "CREATE_TEAMS",
+          "permission": "teams.create",
+          "description": ""
+        },
+        {
+          "name": "CREATE_USERS",
+          "permission": "users.create",
+          "description": ""
+        },
+        {
+          "name": "DELETE_TEAMS",
+          "permission": "teams.delete",
+          "description": ""
+        },
+        {
+          "name": "EDIT_ACCESS_KEYS",
+          "permission": "access-keys.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_ACTIVE_SSO",
+          "permission": "sso-active.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_ADMISSION_CONTROLLER",
+          "permission": "secure.admission-controller.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_AGENTSCANNING_CONFIG",
+          "permission": "agentscanning.config.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_API_TOKEN",
+          "permission": "api-token.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_AWS_SETTINGS",
+          "permission": "aws-settings.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_BENCHMARK_RESULTS",
+          "permission": "secure.benchmark.results.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_DATASTREAM",
+          "permission": "datastream.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_DOWNTIMES",
+          "permission": "downtimes.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_EVENTS_FORWARDER",
+          "permission": "events-forwarder.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_FILE_STORAGE_CONFIG",
+          "permission": "file-storage-config.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_GLOBAL_NOTIFICATION_CHANNELS",
+          "permission": "global.notification-channels.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_GROUPINGS",
+          "permission": "groupings.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_MEMBERSHIPS",
+          "permission": "memberships.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_NETSEC",
+          "permission": "netsec.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_ONBOARDING",
+          "permission": "onboarding.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_POLICY_TUNER",
+          "permission": "policy-tuner.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_PROMCAT_INTEGRATIONS",
+          "permission": "promcat.integrations.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_PROVIDERS",
+          "permission": "providers.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_SCANNING_RETENTION",
+          "permission": "scanning.retention.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_SECURE_IMAGES",
+          "permission": "secure.images.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_SECURE_SETTINGS",
+          "permission": "secure-settings.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_SUBSCRIPTION",
+          "permission": "subscription.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_SYSDIG_STORAGE",
+          "permission": "sysdig-storage.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_TEAMS",
+          "permission": "teams.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_TEAM_AGENT_CLI_SETTINGS",
+          "permission": "team-agent-cli-settings.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_TEAM_CAPTURE_SETTINGS",
+          "permission": "team-capture-settings.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_TEAM_RAPID_RESPONSE_SETTINGS",
+          "permission": "team-rapid-response-settings.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_UI_CUSTOMER_SETTINGS",
+          "permission": "ui-customer-settings.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_UI_INACTIVITY_SETTINGS",
+          "permission": "ui-inactivity-settings.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_UI_SETTINGS",
+          "permission": "ui-settings.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_UI_USER_APP_SETTINGS",
+          "permission": "ui-user-app-settings.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_USERS",
+          "permission": "users.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_USER_LIST",
+          "permission": "user-list.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_USER_PASSWORD",
+          "permission": "user-password.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_USER_PROFILE",
+          "permission": "user-profile.edit",
+          "description": ""
+        },
+        {
+          "name": "EXEC_ES_QUERY",
+          "permission": "es-query.exec",
+          "description": ""
+        },
+        {
+          "name": "EXEC_RAPID_RESPONSE",
+          "permission": "secure.rapid-response.exec",
+          "description": ""
+        },
+        {
+          "name": "EXPORT_PROTOBUF",
+          "permission": "protobuf.export",
+          "description": ""
+        },
+        {
+          "name": "INGEST_PRWS",
+          "permission": "ingest.prws",
+          "description": ""
+        },
+        {
+          "name": "INGEST_PRWS_RESTRICTED",
+          "permission": "ingest.prws.controlled",
+          "description": ""
+        },
+        {
+          "name": "KILL_RAPID_RESPONSE",
+          "permission": "secure.rapid-response.kill",
+          "description": ""
+        },
+        {
+          "name": "READ_ACCESS_KEYS",
+          "permission": "access-keys.read",
+          "description": ""
+        },
+        {
+          "name": "READ_AGENTSCANNING_CONFIG",
+          "permission": "agentscanning.config.read",
+          "description": ""
+        },
+        {
+          "name": "READ_AGENT_INSTALLATION",
+          "permission": "agent-installation.read",
+          "description": ""
+        },
+        {
+          "name": "READ_AGREEMENT",
+          "permission": "agreement.read",
+          "description": ""
+        },
+        {
+          "name": "READ_API_TOKEN",
+          "permission": "api-token.read",
+          "description": ""
+        },
+        {
+          "name": "READ_AWS_SETTINGS",
+          "permission": "aws-settings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_CLOUD_ACCOUNTS",
+          "permission": "cloud.accounts.read",
+          "description": ""
+        },
+        {
+          "name": "READ_CUSTOMER_BY_ACCESSKEY",
+          "permission": "customer-by-accesskey.read",
+          "description": ""
+        },
+        {
+          "name": "READ_CUSTOMER_PLAN",
+          "permission": "customer-plan.read",
+          "description": ""
+        },
+        {
+          "name": "READ_CUSTOM_EVENTS",
+          "permission": "custom-events.read",
+          "description": ""
+        },
+        {
+          "name": "READ_DASHBOARD_METRICS_DATA",
+          "permission": "dashboard-metrics-data.read",
+          "description": ""
+        },
+        {
+          "name": "READ_DATASTREAM",
+          "permission": "datastream.read",
+          "description": ""
+        },
+        {
+          "name": "READ_DATA_API_SETTINGS",
+          "permission": "data-api-settings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_DATA_THROTTLING_SETTINGS",
+          "permission": "data-throttling-settings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_DOWNTIMES",
+          "permission": "downtimes.read",
+          "description": ""
+        },
+        {
+          "name": "READ_EVENTS_FORWARDER",
+          "permission": "events-forwarder.read",
+          "description": ""
+        },
+        {
+          "name": "READ_EXPLORE",
+          "permission": "explore.read",
+          "description": ""
+        },
+        {
+          "name": "READ_EXTERNAL_LINKS",
+          "permission": "external-links.read",
+          "description": ""
+        },
+        {
+          "name": "READ_FILE_STORAGE_CONFIG",
+          "permission": "file-storage-config.read",
+          "description": ""
+        },
+        {
+          "name": "READ_GROUPINGS",
+          "permission": "groupings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_HELM_RENDERER",
+          "permission": "helmsrenderer.read",
+          "description": ""
+        },
+        {
+          "name": "READ_HISTORY_DATA",
+          "permission": "history-data.read",
+          "description": ""
+        },
+        {
+          "name": "READ_IMPERSONATE",
+          "permission": "impersonate.read",
+          "description": ""
+        },
+        {
+          "name": "READ_INFRASTRUCTURE",
+          "permission": "infrastructure.read",
+          "description": ""
+        },
+        {
+          "name": "READ_INTEGRATIONS",
+          "permission": "integrations.read",
+          "description": ""
+        },
+        {
+          "name": "READ_MDS_METADATA",
+          "permission": "mds.read-metadata",
+          "description": ""
+        },
+        {
+          "name": "READ_MEMBERSHIPS",
+          "permission": "memberships.read",
+          "description": ""
+        },
+        {
+          "name": "READ_METADATA_DEFAULTS",
+          "permission": "metadata-defaults.read",
+          "description": ""
+        },
+        {
+          "name": "READ_METRICS_DATA",
+          "permission": "metrics-data.read",
+          "description": ""
+        },
+        {
+          "name": "READ_METRICS_DESCRIPTORS",
+          "permission": "metrics-descriptors.read",
+          "description": ""
+        },
+        {
+          "name": "READ_ONBOARDING",
+          "permission": "onboarding.read",
+          "description": ""
+        },
+        {
+          "name": "READ_OVERVIEWS",
+          "permission": "overviews.read",
+          "description": ""
+        },
+        {
+          "name": "READ_PAYMENT_DETAILS",
+          "permission": "payment-details.read",
+          "description": ""
+        },
+        {
+          "name": "READ_PROMCAT_INTEGRATIONS",
+          "permission": "promcat.integrations.read",
+          "description": ""
+        },
+        {
+          "name": "READ_PROMQL_METADATA",
+          "permission": "promql-metadata.read",
+          "description": ""
+        },
+        {
+          "name": "READ_PROVIDERS",
+          "permission": "providers.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SCANNING",
+          "permission": "scanning.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SCANNING_RETENTION",
+          "permission": "scanning.retention.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SECURE_ONBOARDING",
+          "permission": "secure.onboarding.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SECURE_SETTINGS",
+          "permission": "secure-settings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SUBSCRIPTION",
+          "permission": "subscription.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SYSDIG_STORAGE",
+          "permission": "sysdig-storage.read",
+          "description": ""
+        },
+        {
+          "name": "READ_TEAMS",
+          "permission": "teams.read",
+          "description": ""
+        },
+        {
+          "name": "READ_TEAM_AGENT_CLI_SETTINGS",
+          "permission": "team-agent-cli-settings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_TEAM_CAPTURE_SETTINGS",
+          "permission": "team-capture-settings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_TEAM_RAPID_RESPONSE_SETTINGS",
+          "permission": "team-rapid-response-settings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_TEAM_SEARCH",
+          "permission": "team-search.read",
+          "description": ""
+        },
+        {
+          "name": "READ_UI_CUSTOMER_SETTINGS",
+          "permission": "ui-customer-settings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_UI_INACTIVITY_SETTINGS",
+          "permission": "ui-inactivity-settings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_UI_SETTINGS",
+          "permission": "ui-settings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_UI_USER_APP_SETTINGS",
+          "permission": "ui-user-app-settings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_USERS",
+          "permission": "users.read",
+          "description": ""
+        },
+        {
+          "name": "READ_USER_LIST",
+          "permission": "user-list.read",
+          "description": ""
+        },
+        {
+          "name": "READ_USER_PROFILE",
+          "permission": "user-profile.read",
+          "description": ""
+        },
+        {
+          "name": "SESSIONS_RAPID_RESPONSE",
+          "permission": "secure.rapid-response.sessions.read.all",
+          "description": ""
+        },
+        {
+          "name": "SIGN_AGREEMENT",
+          "permission": "agreement.sign",
+          "description": ""
+        },
+        {
+          "name": "TRACK_EVENT",
+          "permission": "track.event",
+          "description": ""
+        }
+      ],
+      "ROLE_USER": [
+        {
+          "name": "EDIT_UI_SETTINGS",
+          "permission": "ui-settings.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_UI_USER_APP_SETTINGS",
+          "permission": "ui-user-app-settings.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_USER_PASSWORD",
+          "permission": "user-password.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_USER_PROFILE",
+          "permission": "user-profile.edit",
+          "description": ""
+        },
+        {
+          "name": "READ_TEAMS",
+          "permission": "teams.read",
+          "description": ""
+        },
+        {
+          "name": "READ_TEAM_SEARCH",
+          "permission": "team-search.read",
+          "description": ""
+        },
+        {
+          "name": "READ_UI_CUSTOMER_SETTINGS",
+          "permission": "ui-customer-settings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_UI_SETTINGS",
+          "permission": "ui-settings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_UI_USER_APP_SETTINGS",
+          "permission": "ui-user-app-settings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_USER_PROFILE",
+          "permission": "user-profile.read",
+          "description": ""
+        }
+      ],
+      "ROLE_VISITOR": []
+    },
+    "TEAM": {
+      "ROLE_TEAM_EDIT": [
+        {
+          "name": "AGENT_CLI_AGENT_NETWORK_CALLS_TO_REMOTE_PODS",
+          "permission": "agent.cli.agent_network_calls_to_remote_pods",
+          "description": ""
+        },
+        {
+          "name": "AGENT_CLI_AGENT_STATUS",
+          "permission": "agent.cli.agent_status",
+          "description": ""
+        },
+        {
+          "name": "AGENT_CLI_VIEW",
+          "permission": "agent.cli.view",
+          "description": ""
+        },
+        {
+          "name": "AGENT_CLI_VIEW_CONFIGURATION",
+          "permission": "agent.cli.view_configuration",
+          "description": ""
+        },
+        {
+          "name": "CREATE_SCANNING_EVENTS",
+          "permission": "scanning-events.create",
+          "description": ""
+        },
+        {
+          "name": "EDIT_ALERTS",
+          "permission": "alerts.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_API_TOKEN",
+          "permission": "api-token.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_BASELINES",
+          "permission": "baselines.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_BENCHMARK_TASKS",
+          "permission": "secure.benchmark.tasks.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_CAPTURES",
+          "permission": "captures.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_EXPLORE",
+          "permission": "explore.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_GROUPINGS",
+          "permission": "groupings.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_NOTIFICATION_CHANNELS",
+          "permission": "notification-channels.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_POLICIES",
+          "permission": "policies.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_SECURE_ALERTS",
+          "permission": "secure.alerts.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_SECURE_BLACKLIST_IMAGES",
+          "permission": "secure.blacklist.images.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_SECURE_IMPORT_IMAGES",
+          "permission": "secure.import.images.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_SECURE_MAPPINGS",
+          "permission": "secure.mappings.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_SECURE_POLICY",
+          "permission": "secure.policy.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_SECURE_QUERY_CONTAINERS",
+          "permission": "secure.query.containers.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_SECURE_REGISTRY",
+          "permission": "secure.registry.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_SECURE_REPORTS",
+          "permission": "secure.reports.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_SECURE_SETTINGS",
+          "permission": "secure-settings.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_SECURE_WHITELIST",
+          "permission": "secure.whitelist.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_SECURE_WHITELIST_IMAGES",
+          "permission": "secure.whitelist.images.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_UI_SETTINGS",
+          "permission": "ui-settings.edit",
+          "description": ""
+        },
+        {
+          "name": "EXEC_PADVISOR",
+          "permission": "padvisor.exec",
+          "description": ""
+        },
+        {
+          "name": "EXEC_PROFILING",
+          "permission": "profiling.exec",
+          "description": ""
+        },
+        {
+          "name": "EXEC_RAPID_RESPONSE",
+          "permission": "secure.rapid-response.exec",
+          "description": ""
+        },
+        {
+          "name": "EXEC_SCANNING",
+          "permission": "scanning.exec",
+          "description": ""
+        },
+        {
+          "name": "READ_AGENT_INSTALLATION",
+          "permission": "agent-installation.read",
+          "description": ""
+        },
+        {
+          "name": "READ_AGREEMENT",
+          "permission": "agreement.read",
+          "description": ""
+        },
+        {
+          "name": "READ_ALERTS",
+          "permission": "alerts.read",
+          "description": ""
+        },
+        {
+          "name": "READ_API_TOKEN",
+          "permission": "api-token.read",
+          "description": ""
+        },
+        {
+          "name": "READ_AWS_SETTINGS",
+          "permission": "aws-settings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_BASELINES",
+          "permission": "baselines.read",
+          "description": ""
+        },
+        {
+          "name": "READ_BENCHMARK",
+          "permission": "benchmark.read",
+          "description": ""
+        },
+        {
+          "name": "READ_BENCHMARK_TASKS",
+          "permission": "secure.benchmark.tasks.read",
+          "description": ""
+        },
+        {
+          "name": "READ_CAPTURES",
+          "permission": "captures.read",
+          "description": ""
+        },
+        {
+          "name": "READ_CLOUD_ACCOUNTS",
+          "permission": "cloud.accounts.read",
+          "description": ""
+        },
+        {
+          "name": "READ_COMMANDS",
+          "permission": "commands.read",
+          "description": ""
+        },
+        {
+          "name": "READ_COMPLIANCE",
+          "permission": "secure.compliance.read",
+          "description": ""
+        },
+        {
+          "name": "READ_CUSTOMER_PLAN",
+          "permission": "customer-plan.read",
+          "description": ""
+        },
+        {
+          "name": "READ_CUSTOM_EVENTS",
+          "permission": "custom-events.read",
+          "description": ""
+        },
+        {
+          "name": "READ_EXPLORE",
+          "permission": "explore.read",
+          "description": ""
+        },
+        {
+          "name": "READ_EXTERNAL_LINKS",
+          "permission": "external-links.read",
+          "description": ""
+        },
+        {
+          "name": "READ_FILE_STORAGE_CONFIG",
+          "permission": "file-storage-config.read",
+          "description": ""
+        },
+        {
+          "name": "READ_GLOBAL_NOTIFICATION_CHANNELS",
+          "permission": "global.notification-channels.read",
+          "description": ""
+        },
+        {
+          "name": "READ_GROUPINGS",
+          "permission": "groupings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_HELM_RENDERER",
+          "permission": "helmsrenderer.read",
+          "description": ""
+        },
+        {
+          "name": "READ_HISTORY_DATA",
+          "permission": "history-data.read",
+          "description": ""
+        },
+        {
+          "name": "READ_INFRASTRUCTURE",
+          "permission": "infrastructure.read",
+          "description": ""
+        },
+        {
+          "name": "READ_METRICS_DATA",
+          "permission": "metrics-data.read",
+          "description": ""
+        },
+        {
+          "name": "READ_METRICS_DESCRIPTORS",
+          "permission": "metrics-descriptors.read",
+          "description": ""
+        },
+        {
+          "name": "READ_NETSEC",
+          "permission": "netsec.read",
+          "description": ""
+        },
+        {
+          "name": "READ_NOTIFICATION_CHANNELS",
+          "permission": "notification-channels.read",
+          "description": ""
+        },
+        {
+          "name": "READ_PADVISOR",
+          "permission": "padvisor.read",
+          "description": ""
+        },
+        {
+          "name": "READ_POLICIES",
+          "permission": "policies.read",
+          "description": ""
+        },
+        {
+          "name": "READ_POLICY_EVENTS",
+          "permission": "policy-events.read",
+          "description": ""
+        },
+        {
+          "name": "READ_PROFILING",
+          "permission": "profiling.read",
+          "description": ""
+        },
+        {
+          "name": "READ_PROMCAT_INTEGRATIONS",
+          "permission": "promcat.integrations.read",
+          "description": ""
+        },
+        {
+          "name": "READ_PROVIDERS",
+          "permission": "providers.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SCANNING",
+          "permission": "scanning.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SECURE_ALERTS",
+          "permission": "secure.alerts.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SECURE_AUDIT_POLICY",
+          "permission": "secure.audit.policies.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SECURE_BLACKLIST_IMAGES",
+          "permission": "secure.blacklist.images.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SECURE_IMAGES",
+          "permission": "secure.images.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SECURE_MAPPINGS",
+          "permission": "secure.mappings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SECURE_ONBOARDING",
+          "permission": "secure.onboarding.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SECURE_POLICY",
+          "permission": "secure.policy.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SECURE_REGISTRY",
+          "permission": "secure.registry.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SECURE_REPORTS",
+          "permission": "secure.reports.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SECURE_SETTINGS",
+          "permission": "secure-settings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SECURE_WHITELIST",
+          "permission": "secure.whitelist.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SECURE_WHITELIST_IMAGES",
+          "permission": "secure.whitelist.images.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SUBSCRIPTION",
+          "permission": "subscription.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SYSDIG_STORAGE",
+          "permission": "sysdig-storage.read",
+          "description": ""
+        },
+        {
+          "name": "TOGGLE_GROUPINGS_TEAM_SHARING",
+          "permission": "team.sharing.groupings.toggle",
+          "description": ""
+        },
+        {
+          "name": "TRACK_EVENT",
+          "permission": "track.event",
+          "description": ""
+        },
+        {
+          "name": "VIEW_CAPTURES",
+          "permission": "captures.view",
+          "description": ""
+        },
+        {
+          "name": "VIEW_TOKEN",
+          "permission": "token.view",
+          "description": ""
+        },
+        {
+          "name": "WRITE_PADVISOR",
+          "permission": "padvisor.write",
+          "description": ""
+        },
+        {
+          "name": "WRITE_PROFILING",
+          "permission": "profiling.write",
+          "description": ""
+        },
+        {
+          "name": "WRITE_SCANNING",
+          "permission": "scanning.write",
+          "description": ""
+        }
+      ],
+      "ROLE_TEAM_MANAGER": [
+        {
+          "name": "AGENT_CLI_AGENT_NETWORK_CALLS_TO_REMOTE_PODS",
+          "permission": "agent.cli.agent_network_calls_to_remote_pods",
+          "description": ""
+        },
+        {
+          "name": "AGENT_CLI_AGENT_STATUS",
+          "permission": "agent.cli.agent_status",
+          "description": ""
+        },
+        {
+          "name": "AGENT_CLI_VIEW",
+          "permission": "agent.cli.view",
+          "description": ""
+        },
+        {
+          "name": "AGENT_CLI_VIEW_CONFIGURATION",
+          "permission": "agent.cli.view_configuration",
+          "description": ""
+        },
+        {
+          "name": "CREATE_SCANNING_EVENTS",
+          "permission": "scanning-events.create",
+          "description": ""
+        },
+        {
+          "name": "EDIT_ALERTS",
+          "permission": "alerts.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_API_TOKEN",
+          "permission": "api-token.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_BASELINES",
+          "permission": "baselines.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_BENCHMARK_TASKS",
+          "permission": "secure.benchmark.tasks.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_CAPTURES",
+          "permission": "captures.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_EXPLORE",
+          "permission": "explore.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_GROUPINGS",
+          "permission": "groupings.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_NOTIFICATION_CHANNELS",
+          "permission": "notification-channels.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_POLICIES",
+          "permission": "policies.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_SECURE_ALERTS",
+          "permission": "secure.alerts.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_SECURE_BLACKLIST_IMAGES",
+          "permission": "secure.blacklist.images.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_SECURE_IMPORT_IMAGES",
+          "permission": "secure.import.images.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_SECURE_MAPPINGS",
+          "permission": "secure.mappings.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_SECURE_POLICY",
+          "permission": "secure.policy.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_SECURE_QUERY_CONTAINERS",
+          "permission": "secure.query.containers.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_SECURE_REGISTRY",
+          "permission": "secure.registry.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_SECURE_REPORTS",
+          "permission": "secure.reports.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_SECURE_SETTINGS",
+          "permission": "secure-settings.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_SECURE_WHITELIST",
+          "permission": "secure.whitelist.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_SECURE_WHITELIST_IMAGES",
+          "permission": "secure.whitelist.images.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_UI_SETTINGS",
+          "permission": "ui-settings.edit",
+          "description": ""
+        },
+        {
+          "name": "EXEC_PADVISOR",
+          "permission": "padvisor.exec",
+          "description": ""
+        },
+        {
+          "name": "EXEC_PROFILING",
+          "permission": "profiling.exec",
+          "description": ""
+        },
+        {
+          "name": "EXEC_RAPID_RESPONSE",
+          "permission": "secure.rapid-response.exec",
+          "description": ""
+        },
+        {
+          "name": "EXEC_SCANNING",
+          "permission": "scanning.exec",
+          "description": ""
+        },
+        {
+          "name": "READ_AGENT_INSTALLATION",
+          "permission": "agent-installation.read",
+          "description": ""
+        },
+        {
+          "name": "READ_AGREEMENT",
+          "permission": "agreement.read",
+          "description": ""
+        },
+        {
+          "name": "READ_ALERTS",
+          "permission": "alerts.read",
+          "description": ""
+        },
+        {
+          "name": "READ_API_TOKEN",
+          "permission": "api-token.read",
+          "description": ""
+        },
+        {
+          "name": "READ_AWS_SETTINGS",
+          "permission": "aws-settings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_BASELINES",
+          "permission": "baselines.read",
+          "description": ""
+        },
+        {
+          "name": "READ_BENCHMARK",
+          "permission": "benchmark.read",
+          "description": ""
+        },
+        {
+          "name": "READ_BENCHMARK_TASKS",
+          "permission": "secure.benchmark.tasks.read",
+          "description": ""
+        },
+        {
+          "name": "READ_CAPTURES",
+          "permission": "captures.read",
+          "description": ""
+        },
+        {
+          "name": "READ_CLOUD_ACCOUNTS",
+          "permission": "cloud.accounts.read",
+          "description": ""
+        },
+        {
+          "name": "READ_COMMANDS",
+          "permission": "commands.read",
+          "description": ""
+        },
+        {
+          "name": "READ_COMPLIANCE",
+          "permission": "secure.compliance.read",
+          "description": ""
+        },
+        {
+          "name": "READ_CUSTOMER_PLAN",
+          "permission": "customer-plan.read",
+          "description": ""
+        },
+        {
+          "name": "READ_CUSTOM_EVENTS",
+          "permission": "custom-events.read",
+          "description": ""
+        },
+        {
+          "name": "READ_EXPLORE",
+          "permission": "explore.read",
+          "description": ""
+        },
+        {
+          "name": "READ_EXTERNAL_LINKS",
+          "permission": "external-links.read",
+          "description": ""
+        },
+        {
+          "name": "READ_FILE_STORAGE_CONFIG",
+          "permission": "file-storage-config.read",
+          "description": ""
+        },
+        {
+          "name": "READ_GLOBAL_NOTIFICATION_CHANNELS",
+          "permission": "global.notification-channels.read",
+          "description": ""
+        },
+        {
+          "name": "READ_GROUPINGS",
+          "permission": "groupings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_HELM_RENDERER",
+          "permission": "helmsrenderer.read",
+          "description": ""
+        },
+        {
+          "name": "READ_HISTORY_DATA",
+          "permission": "history-data.read",
+          "description": ""
+        },
+        {
+          "name": "READ_INFRASTRUCTURE",
+          "permission": "infrastructure.read",
+          "description": ""
+        },
+        {
+          "name": "READ_METRICS_DATA",
+          "permission": "metrics-data.read",
+          "description": ""
+        },
+        {
+          "name": "READ_METRICS_DESCRIPTORS",
+          "permission": "metrics-descriptors.read",
+          "description": ""
+        },
+        {
+          "name": "READ_NETSEC",
+          "permission": "netsec.read",
+          "description": ""
+        },
+        {
+          "name": "READ_NOTIFICATION_CHANNELS",
+          "permission": "notification-channels.read",
+          "description": ""
+        },
+        {
+          "name": "READ_PADVISOR",
+          "permission": "padvisor.read",
+          "description": ""
+        },
+        {
+          "name": "READ_POLICIES",
+          "permission": "policies.read",
+          "description": ""
+        },
+        {
+          "name": "READ_POLICY_EVENTS",
+          "permission": "policy-events.read",
+          "description": ""
+        },
+        {
+          "name": "READ_PROFILING",
+          "permission": "profiling.read",
+          "description": ""
+        },
+        {
+          "name": "READ_PROMCAT_INTEGRATIONS",
+          "permission": "promcat.integrations.read",
+          "description": ""
+        },
+        {
+          "name": "READ_PROVIDERS",
+          "permission": "providers.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SCANNING",
+          "permission": "scanning.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SECURE_ALERTS",
+          "permission": "secure.alerts.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SECURE_AUDIT_POLICY",
+          "permission": "secure.audit.policies.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SECURE_BLACKLIST_IMAGES",
+          "permission": "secure.blacklist.images.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SECURE_IMAGES",
+          "permission": "secure.images.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SECURE_MAPPINGS",
+          "permission": "secure.mappings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SECURE_ONBOARDING",
+          "permission": "secure.onboarding.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SECURE_POLICY",
+          "permission": "secure.policy.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SECURE_REGISTRY",
+          "permission": "secure.registry.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SECURE_REPORTS",
+          "permission": "secure.reports.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SECURE_SETTINGS",
+          "permission": "secure-settings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SECURE_WHITELIST",
+          "permission": "secure.whitelist.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SECURE_WHITELIST_IMAGES",
+          "permission": "secure.whitelist.images.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SUBSCRIPTION",
+          "permission": "subscription.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SYSDIG_STORAGE",
+          "permission": "sysdig-storage.read",
+          "description": ""
+        },
+        {
+          "name": "TOGGLE_GROUPINGS_TEAM_SHARING",
+          "permission": "team.sharing.groupings.toggle",
+          "description": ""
+        },
+        {
+          "name": "TRACK_EVENT",
+          "permission": "track.event",
+          "description": ""
+        },
+        {
+          "name": "VIEW_CAPTURES",
+          "permission": "captures.view",
+          "description": ""
+        },
+        {
+          "name": "VIEW_TOKEN",
+          "permission": "token.view",
+          "description": ""
+        },
+        {
+          "name": "WRITE_PADVISOR",
+          "permission": "padvisor.write",
+          "description": ""
+        },
+        {
+          "name": "WRITE_PROFILING",
+          "permission": "profiling.write",
+          "description": ""
+        },
+        {
+          "name": "WRITE_SCANNING",
+          "permission": "scanning.write",
+          "description": ""
+        }
+      ],
+      "ROLE_TEAM_NONE": [],
+      "ROLE_TEAM_READ": [
+        {
+          "name": "AGENT_CLI_AGENT_NETWORK_CALLS_TO_REMOTE_PODS",
+          "permission": "agent.cli.agent_network_calls_to_remote_pods",
+          "description": ""
+        },
+        {
+          "name": "AGENT_CLI_AGENT_STATUS",
+          "permission": "agent.cli.agent_status",
+          "description": ""
+        },
+        {
+          "name": "AGENT_CLI_VIEW",
+          "permission": "agent.cli.view",
+          "description": ""
+        },
+        {
+          "name": "AGENT_CLI_VIEW_CONFIGURATION",
+          "permission": "agent.cli.view_configuration",
+          "description": ""
+        },
+        {
+          "name": "EDIT_API_TOKEN",
+          "permission": "api-token.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_GROUPINGS",
+          "permission": "groupings.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_SECURE_QUERY_CONTAINERS",
+          "permission": "secure.query.containers.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_SECURE_SETTINGS",
+          "permission": "secure-settings.edit",
+          "description": ""
+        },
+        {
+          "name": "READ_AGENT_INSTALLATION",
+          "permission": "agent-installation.read",
+          "description": ""
+        },
+        {
+          "name": "READ_AGREEMENT",
+          "permission": "agreement.read",
+          "description": ""
+        },
+        {
+          "name": "READ_ALERTS",
+          "permission": "alerts.read",
+          "description": ""
+        },
+        {
+          "name": "READ_API_TOKEN",
+          "permission": "api-token.read",
+          "description": ""
+        },
+        {
+          "name": "READ_AWS_SETTINGS",
+          "permission": "aws-settings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_BASELINES",
+          "permission": "baselines.read",
+          "description": ""
+        },
+        {
+          "name": "READ_BENCHMARK",
+          "permission": "benchmark.read",
+          "description": ""
+        },
+        {
+          "name": "READ_BENCHMARK_TASKS",
+          "permission": "secure.benchmark.tasks.read",
+          "description": ""
+        },
+        {
+          "name": "READ_CAPTURES",
+          "permission": "captures.read",
+          "description": ""
+        },
+        {
+          "name": "READ_CLOUD_ACCOUNTS",
+          "permission": "cloud.accounts.read",
+          "description": ""
+        },
+        {
+          "name": "READ_COMMANDS",
+          "permission": "commands.read",
+          "description": ""
+        },
+        {
+          "name": "READ_COMPLIANCE",
+          "permission": "secure.compliance.read",
+          "description": ""
+        },
+        {
+          "name": "READ_CUSTOMER_PLAN",
+          "permission": "customer-plan.read",
+          "description": ""
+        },
+        {
+          "name": "READ_CUSTOM_EVENTS",
+          "permission": "custom-events.read",
+          "description": ""
+        },
+        {
+          "name": "READ_EXPLORE",
+          "permission": "explore.read",
+          "description": ""
+        },
+        {
+          "name": "READ_EXTERNAL_LINKS",
+          "permission": "external-links.read",
+          "description": ""
+        },
+        {
+          "name": "READ_FILE_STORAGE_CONFIG",
+          "permission": "file-storage-config.read",
+          "description": ""
+        },
+        {
+          "name": "READ_GLOBAL_NOTIFICATION_CHANNELS",
+          "permission": "global.notification-channels.read",
+          "description": ""
+        },
+        {
+          "name": "READ_GROUPINGS",
+          "permission": "groupings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_HELM_RENDERER",
+          "permission": "helmsrenderer.read",
+          "description": ""
+        },
+        {
+          "name": "READ_HISTORY_DATA",
+          "permission": "history-data.read",
+          "description": ""
+        },
+        {
+          "name": "READ_INFRASTRUCTURE",
+          "permission": "infrastructure.read",
+          "description": ""
+        },
+        {
+          "name": "READ_METRICS_DATA",
+          "permission": "metrics-data.read",
+          "description": ""
+        },
+        {
+          "name": "READ_METRICS_DESCRIPTORS",
+          "permission": "metrics-descriptors.read",
+          "description": ""
+        },
+        {
+          "name": "READ_NETSEC",
+          "permission": "netsec.read",
+          "description": ""
+        },
+        {
+          "name": "READ_NOTIFICATION_CHANNELS",
+          "permission": "notification-channels.read",
+          "description": ""
+        },
+        {
+          "name": "READ_PADVISOR",
+          "permission": "padvisor.read",
+          "description": ""
+        },
+        {
+          "name": "READ_POLICIES",
+          "permission": "policies.read",
+          "description": ""
+        },
+        {
+          "name": "READ_POLICY_EVENTS",
+          "permission": "policy-events.read",
+          "description": ""
+        },
+        {
+          "name": "READ_PROFILING",
+          "permission": "profiling.read",
+          "description": ""
+        },
+        {
+          "name": "READ_PROMCAT_INTEGRATIONS",
+          "permission": "promcat.integrations.read",
+          "description": ""
+        },
+        {
+          "name": "READ_PROVIDERS",
+          "permission": "providers.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SCANNING",
+          "permission": "scanning.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SECURE_ALERTS",
+          "permission": "secure.alerts.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SECURE_AUDIT_POLICY",
+          "permission": "secure.audit.policies.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SECURE_BLACKLIST_IMAGES",
+          "permission": "secure.blacklist.images.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SECURE_IMAGES",
+          "permission": "secure.images.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SECURE_MAPPINGS",
+          "permission": "secure.mappings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SECURE_ONBOARDING",
+          "permission": "secure.onboarding.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SECURE_POLICY",
+          "permission": "secure.policy.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SECURE_REGISTRY",
+          "permission": "secure.registry.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SECURE_REPORTS",
+          "permission": "secure.reports.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SECURE_SETTINGS",
+          "permission": "secure-settings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SECURE_WHITELIST",
+          "permission": "secure.whitelist.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SECURE_WHITELIST_IMAGES",
+          "permission": "secure.whitelist.images.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SUBSCRIPTION",
+          "permission": "subscription.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SYSDIG_STORAGE",
+          "permission": "sysdig-storage.read",
+          "description": ""
+        },
+        {
+          "name": "VIEW_CAPTURES",
+          "permission": "captures.view",
+          "description": ""
+        },
+        {
+          "name": "VIEW_TOKEN",
+          "permission": "token.view",
+          "description": ""
+        }
+      ],
+      "ROLE_TEAM_SERVICE_MANAGER": [
+        {
+          "name": "AGENT_CLI_AGENT_NETWORK_CALLS_TO_REMOTE_PODS",
+          "permission": "agent.cli.agent_network_calls_to_remote_pods",
+          "description": ""
+        },
+        {
+          "name": "AGENT_CLI_AGENT_STATUS",
+          "permission": "agent.cli.agent_status",
+          "description": ""
+        },
+        {
+          "name": "AGENT_CLI_VIEW",
+          "permission": "agent.cli.view",
+          "description": ""
+        },
+        {
+          "name": "AGENT_CLI_VIEW_CONFIGURATION",
+          "permission": "agent.cli.view_configuration",
+          "description": ""
+        },
+        {
+          "name": "CREATE_SCANNING_EVENTS",
+          "permission": "scanning-events.create",
+          "description": ""
+        },
+        {
+          "name": "EDIT_API_TOKEN",
+          "permission": "api-token.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_GROUPINGS",
+          "permission": "groupings.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_MEMBERSHIPS",
+          "permission": "memberships.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_NOTIFICATION_CHANNELS",
+          "permission": "notification-channels.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_SECURE_ALERTS",
+          "permission": "secure.alerts.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_SECURE_IMPORT_IMAGES",
+          "permission": "secure.import.images.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_SECURE_QUERY_CONTAINERS",
+          "permission": "secure.query.containers.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_SECURE_SETTINGS",
+          "permission": "secure-settings.edit",
+          "description": ""
+        },
+        {
+          "name": "EXEC_SCANNING",
+          "permission": "scanning.exec",
+          "description": ""
+        },
+        {
+          "name": "READ_AGENT_INSTALLATION",
+          "permission": "agent-installation.read",
+          "description": ""
+        },
+        {
+          "name": "READ_AGREEMENT",
+          "permission": "agreement.read",
+          "description": ""
+        },
+        {
+          "name": "READ_ALERTS",
+          "permission": "alerts.read",
+          "description": ""
+        },
+        {
+          "name": "READ_API_TOKEN",
+          "permission": "api-token.read",
+          "description": ""
+        },
+        {
+          "name": "READ_AWS_SETTINGS",
+          "permission": "aws-settings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_CAPTURES",
+          "permission": "captures.read",
+          "description": ""
+        },
+        {
+          "name": "READ_CLOUD_ACCOUNTS",
+          "permission": "cloud.accounts.read",
+          "description": ""
+        },
+        {
+          "name": "READ_CUSTOMER_PLAN",
+          "permission": "customer-plan.read",
+          "description": ""
+        },
+        {
+          "name": "READ_CUSTOM_EVENTS",
+          "permission": "custom-events.read",
+          "description": ""
+        },
+        {
+          "name": "READ_EXPLORE",
+          "permission": "explore.read",
+          "description": ""
+        },
+        {
+          "name": "READ_EXTERNAL_LINKS",
+          "permission": "external-links.read",
+          "description": ""
+        },
+        {
+          "name": "READ_FILE_STORAGE_CONFIG",
+          "permission": "file-storage-config.read",
+          "description": ""
+        },
+        {
+          "name": "READ_GLOBAL_NOTIFICATION_CHANNELS",
+          "permission": "global.notification-channels.read",
+          "description": ""
+        },
+        {
+          "name": "READ_GROUPINGS",
+          "permission": "groupings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_HELM_RENDERER",
+          "permission": "helmsrenderer.read",
+          "description": ""
+        },
+        {
+          "name": "READ_HISTORY_DATA",
+          "permission": "history-data.read",
+          "description": ""
+        },
+        {
+          "name": "READ_INFRASTRUCTURE",
+          "permission": "infrastructure.read",
+          "description": ""
+        },
+        {
+          "name": "READ_MEMBERSHIPS",
+          "permission": "memberships.read",
+          "description": ""
+        },
+        {
+          "name": "READ_METRICS_DATA",
+          "permission": "metrics-data.read",
+          "description": ""
+        },
+        {
+          "name": "READ_METRICS_DESCRIPTORS",
+          "permission": "metrics-descriptors.read",
+          "description": ""
+        },
+        {
+          "name": "READ_NOTIFICATION_CHANNELS",
+          "permission": "notification-channels.read",
+          "description": ""
+        },
+        {
+          "name": "READ_POLICY_EVENTS",
+          "permission": "policy-events.read",
+          "description": ""
+        },
+        {
+          "name": "READ_PROMCAT_INTEGRATIONS",
+          "permission": "promcat.integrations.read",
+          "description": ""
+        },
+        {
+          "name": "READ_PROVIDERS",
+          "permission": "providers.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SCANNING",
+          "permission": "scanning.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SECURE_ALERTS",
+          "permission": "secure.alerts.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SECURE_BLACKLIST_IMAGES",
+          "permission": "secure.blacklist.images.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SECURE_IMAGES",
+          "permission": "secure.images.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SECURE_MAPPINGS",
+          "permission": "secure.mappings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SECURE_ONBOARDING",
+          "permission": "secure.onboarding.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SECURE_REPORTS",
+          "permission": "secure.reports.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SECURE_SETTINGS",
+          "permission": "secure-settings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SECURE_WHITELIST",
+          "permission": "secure.whitelist.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SECURE_WHITELIST_IMAGES",
+          "permission": "secure.whitelist.images.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SUBSCRIPTION",
+          "permission": "subscription.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SYSDIG_STORAGE",
+          "permission": "sysdig-storage.read",
+          "description": ""
+        },
+        {
+          "name": "READ_TEAMS",
+          "permission": "teams.read",
+          "description": ""
+        },
+        {
+          "name": "READ_USERS",
+          "permission": "users.read",
+          "description": ""
+        },
+        {
+          "name": "TOGGLE_GROUPINGS_TEAM_SHARING",
+          "permission": "team.sharing.groupings.toggle",
+          "description": ""
+        },
+        {
+          "name": "VIEW_CAPTURES",
+          "permission": "captures.view",
+          "description": ""
+        },
+        {
+          "name": "VIEW_TOKEN",
+          "permission": "token.view",
+          "description": ""
+        },
+        {
+          "name": "WRITE_SCANNING",
+          "permission": "scanning.write",
+          "description": ""
+        }
+      ],
+      "ROLE_TEAM_STANDARD": [
+        {
+          "name": "AGENT_CLI_AGENT_NETWORK_CALLS_TO_REMOTE_PODS",
+          "permission": "agent.cli.agent_network_calls_to_remote_pods",
+          "description": ""
+        },
+        {
+          "name": "AGENT_CLI_AGENT_STATUS",
+          "permission": "agent.cli.agent_status",
+          "description": ""
+        },
+        {
+          "name": "AGENT_CLI_VIEW",
+          "permission": "agent.cli.view",
+          "description": ""
+        },
+        {
+          "name": "AGENT_CLI_VIEW_CONFIGURATION",
+          "permission": "agent.cli.view_configuration",
+          "description": ""
+        },
+        {
+          "name": "CREATE_SCANNING_EVENTS",
+          "permission": "scanning-events.create",
+          "description": ""
+        },
+        {
+          "name": "EDIT_API_TOKEN",
+          "permission": "api-token.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_GROUPINGS",
+          "permission": "groupings.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_SECURE_IMPORT_IMAGES",
+          "permission": "secure.import.images.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_SECURE_QUERY_CONTAINERS",
+          "permission": "secure.query.containers.edit",
+          "description": ""
+        },
+        {
+          "name": "EDIT_SECURE_SETTINGS",
+          "permission": "secure-settings.edit",
+          "description": ""
+        },
+        {
+          "name": "READ_AGENT_INSTALLATION",
+          "permission": "agent-installation.read",
+          "description": ""
+        },
+        {
+          "name": "READ_AGREEMENT",
+          "permission": "agreement.read",
+          "description": ""
+        },
+        {
+          "name": "READ_ALERTS",
+          "permission": "alerts.read",
+          "description": ""
+        },
+        {
+          "name": "READ_API_TOKEN",
+          "permission": "api-token.read",
+          "description": ""
+        },
+        {
+          "name": "READ_AWS_SETTINGS",
+          "permission": "aws-settings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_CAPTURES",
+          "permission": "captures.read",
+          "description": ""
+        },
+        {
+          "name": "READ_CLOUD_ACCOUNTS",
+          "permission": "cloud.accounts.read",
+          "description": ""
+        },
+        {
+          "name": "READ_CUSTOMER_PLAN",
+          "permission": "customer-plan.read",
+          "description": ""
+        },
+        {
+          "name": "READ_CUSTOM_EVENTS",
+          "permission": "custom-events.read",
+          "description": ""
+        },
+        {
+          "name": "READ_EXPLORE",
+          "permission": "explore.read",
+          "description": ""
+        },
+        {
+          "name": "READ_EXTERNAL_LINKS",
+          "permission": "external-links.read",
+          "description": ""
+        },
+        {
+          "name": "READ_FILE_STORAGE_CONFIG",
+          "permission": "file-storage-config.read",
+          "description": ""
+        },
+        {
+          "name": "READ_GLOBAL_NOTIFICATION_CHANNELS",
+          "permission": "global.notification-channels.read",
+          "description": ""
+        },
+        {
+          "name": "READ_GROUPINGS",
+          "permission": "groupings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_HELM_RENDERER",
+          "permission": "helmsrenderer.read",
+          "description": ""
+        },
+        {
+          "name": "READ_HISTORY_DATA",
+          "permission": "history-data.read",
+          "description": ""
+        },
+        {
+          "name": "READ_INFRASTRUCTURE",
+          "permission": "infrastructure.read",
+          "description": ""
+        },
+        {
+          "name": "READ_METRICS_DATA",
+          "permission": "metrics-data.read",
+          "description": ""
+        },
+        {
+          "name": "READ_METRICS_DESCRIPTORS",
+          "permission": "metrics-descriptors.read",
+          "description": ""
+        },
+        {
+          "name": "READ_NOTIFICATION_CHANNELS",
+          "permission": "notification-channels.read",
+          "description": ""
+        },
+        {
+          "name": "READ_POLICY_EVENTS",
+          "permission": "policy-events.read",
+          "description": ""
+        },
+        {
+          "name": "READ_PROMCAT_INTEGRATIONS",
+          "permission": "promcat.integrations.read",
+          "description": ""
+        },
+        {
+          "name": "READ_PROVIDERS",
+          "permission": "providers.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SCANNING",
+          "permission": "scanning.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SECURE_ALERTS",
+          "permission": "secure.alerts.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SECURE_BLACKLIST_IMAGES",
+          "permission": "secure.blacklist.images.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SECURE_IMAGES",
+          "permission": "secure.images.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SECURE_ONBOARDING",
+          "permission": "secure.onboarding.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SECURE_REPORTS",
+          "permission": "secure.reports.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SECURE_SETTINGS",
+          "permission": "secure-settings.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SECURE_WHITELIST",
+          "permission": "secure.whitelist.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SECURE_WHITELIST_IMAGES",
+          "permission": "secure.whitelist.images.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SUBSCRIPTION",
+          "permission": "subscription.read",
+          "description": ""
+        },
+        {
+          "name": "READ_SYSDIG_STORAGE",
+          "permission": "sysdig-storage.read",
+          "description": ""
+        },
+        {
+          "name": "TOGGLE_GROUPINGS_TEAM_SHARING",
+          "permission": "team.sharing.groupings.toggle",
+          "description": ""
+        },
+        {
+          "name": "VIEW_CAPTURES",
+          "permission": "captures.view",
+          "description": ""
+        },
+        {
+          "name": "VIEW_TOKEN",
+          "permission": "token.view",
+          "description": ""
+        }
+      ]
+    }
+  }
+}
