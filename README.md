@@ -5,7 +5,7 @@ curl -k -XGET -H 'Authorization: Bearer XXXXX' "https://kazu-01.sysdiglabs.com/a
 ```
 
 ```
-curl -k -XGET -H 'Authorization: Bearer XXXXX' "https://kazu-02.sysdiglabs.com/api/admin/security/roles/documentation?product=SDS" | jq > RBAC_6.0.3
+curl -k -XGET -H 'Authorization: Bearer XXXXX' "https://kazu-02.sysdiglabs.com/api/admin/security/roles/documentation?product=SDS" | jq > RBAC_6.3.0
 ```
 
 - Test env
